@@ -1,6 +1,8 @@
 # AssetHub
 
-[Live application](https://multi-tenant-asset-manager.vercel.app/)
+[Live application](https://multi-tenant-asset-manager.vercel.app/) · [GitHub repository](https://github.com/vmargin/assethub)
+
+The requested `assethub.vercel.app` hostname currently serves a different AssetHub Digital Marketplace. Until its ownership and reassignment are confirmed, this application remains live at its existing production address.
 
 A multi-tenant equipment workspace built around an ivory, forest-green and editorial-serif interface. The light and dark themes share the same readable controls, compact tables and focused lifecycle drawers.
 

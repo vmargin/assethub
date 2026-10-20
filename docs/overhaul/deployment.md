@@ -1,6 +1,8 @@
 # Deployment and rollback
 
-Production project: multi-tenant-asset-manager on Vercel, linked to vmargin/multi-tenant-asset-manager on GitHub. Public domain: https://multi-tenant-asset-manager.vercel.app/.
+Production Vercel project: `multi-tenant-asset-manager`. GitHub repository: [vmargin/assethub](https://github.com/vmargin/assethub). Current public domain: https://multi-tenant-asset-manager.vercel.app/.
+
+The requested `assethub.vercel.app` hostname already serves a different AssetHub Digital Marketplace as of 21 October 2026. Keep the current production domain until the requested hostname is verified to be under this project's control and can be reassigned without interrupting that site.
 
 ## Release procedure
 

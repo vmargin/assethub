@@ -50,7 +50,7 @@ Automated accessibility checks do not establish full conformance. Manual checks 
 
 ## Production release
 
-Public domain: [multi-tenant-asset-manager.vercel.app](https://multi-tenant-asset-manager.vercel.app/). GitHub source: [vmargin/multi-tenant-asset-manager](https://github.com/vmargin/multi-tenant-asset-manager).
+Public domain used for this 7 October 2026 verification: [multi-tenant-asset-manager.vercel.app](https://multi-tenant-asset-manager.vercel.app/). GitHub source (renamed 21 October 2026): [vmargin/assethub](https://github.com/vmargin/assethub).
 
 The initial overhaul deployment reached READY and returned HTTP 200 for the public HTML and health endpoint. Its first live demo request exposed a Prisma P2028 transaction timeout: setup inserted each synthetic record separately. Demo provisioning now preassigns IDs and inserts each table in batches inside the same all-or-nothing transaction. The transaction deadline and isolation safeguards remain in place.
 
