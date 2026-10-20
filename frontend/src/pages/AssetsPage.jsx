@@ -345,7 +345,7 @@ export default function AssetsPage({
               icon="download"
               onClick={() =>
                 downloadCsv(
-                  "assethub-assets.csv",
+                  "erlassethub-assets.csv",
                   filtered.map((asset) =>
                     assetExportRow(asset, categories, locations, people),
                   ),
@@ -363,7 +363,7 @@ export default function AssetsPage({
                 );
                 const link = document.createElement("a");
                 link.href = url;
-                link.download = "assethub-import-template.csv";
+                link.download = "erlassethub-import-template.csv";
                 link.click();
                 URL.revokeObjectURL(url);
               }}
@@ -378,7 +378,7 @@ export default function AssetsPage({
                 icon="download"
                 onClick={() =>
                   downloadCsv(
-                    "assethub-selected-assets.csv",
+                    "erlassethub-selected-assets.csv",
                     filtered
                       .filter((a) => selected.includes(a.id))
                       .map((asset) =>

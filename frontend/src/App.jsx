@@ -406,7 +406,7 @@ export default function App() {
   useEffect(() => {
     const pageTitle =
       !session || inviteToken || showPublicHome ? "Workspace access" : title;
-    document.title = `AssetHub · ${pageTitle}`;
+    document.title = `ERL AssetHub · ${pageTitle}`;
   }, [inviteToken, session, showPublicHome, title]);
   if (!session || inviteToken || showPublicHome)
     return (
@@ -472,7 +472,7 @@ export default function App() {
             <Icon name="box" size={22} />
           </span>
           <span>
-            <b>AssetHub</b>
+            <b>ERL AssetHub</b>
             <small>WORKSPACE</small>
           </span>
           <button
@@ -731,7 +731,7 @@ export default function App() {
           )}
         </section>
         <footer className="main-footer">
-          <span>AssetHub</span>
+          <span>ERL AssetHub</span>
           <span>Thoughtful asset management for growing teams.</span>
           <span>{workspace.role ? titleCase(workspace.role) : ""}</span>
         </footer>

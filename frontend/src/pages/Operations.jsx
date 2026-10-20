@@ -556,7 +556,7 @@ export function PeoplePage({ workspace, canManage, refresh }) {
         <Dialog title="Invite a teammate" onClose={() => setDialog("")}>
           <p className="muted-copy">
             Create a secure invitation link for this workspace. You can share
-            the link directly; AssetHub does not send email.
+            the link directly; ERL AssetHub does not send email.
           </p>
           <form id="people-form" className="form-stack" onSubmit={submit}>
             <Field
@@ -1218,7 +1218,7 @@ export function ReportsPage({ workspace }) {
             icon="download"
             variant="primary"
             onClick={() =>
-              downloadCsv("assethub-inventory-report.csv", exportRows, [
+              downloadCsv("erlassethub-inventory-report.csv", exportRows, [
                 ["assetTag", "Asset tag"],
                 ["name", "Asset"],
                 ["status", "Status"],
@@ -1396,7 +1396,7 @@ export function SettingsPage({
       <PageHeading
         eyebrow="WORKSPACE"
         title="Settings"
-        description="Manage your organization and how AssetHub looks for you."
+        description="Manage your organization and how ERL AssetHub looks for you."
       />
       <div className="settings-layout">
         <aside className="settings-tabs">

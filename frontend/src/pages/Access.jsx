@@ -111,11 +111,11 @@ export default function Access({
   return (
     <div className="auth-page">
       <header className="auth-topbar">
-        <a className="auth-brand" href="/" aria-label="AssetHub home">
+        <a className="auth-brand" href="/" aria-label="ERL AssetHub home">
           <span className="auth-brand__mark">
             <Icon name="box" size={22} />
           </span>
-          <span className="auth-brand__name">AssetHub</span>
+          <span className="auth-brand__name">ERL AssetHub</span>
           <span className="auth-brand__divider" aria-hidden="true" />
           <span className="auth-brand__context">Workspace access</span>
         </a>
@@ -186,7 +186,7 @@ export default function Access({
                   <h2 id="auth-panel-title">{panelTitle}</h2>
                   <p>
                     Continue to {activeOrganization?.name || "your team"}’s
-                    AssetHub workspace.
+                    ERL AssetHub workspace.
                   </p>
                 </div>
                 <div className="auth-session-actions">
@@ -227,7 +227,7 @@ export default function Access({
                 <form onSubmit={submit} className="auth-form">
                   {mode === "invite" && (
                     <Notice tone="info">
-                      If you already have an AssetHub account, use your current
+                      If you already have an ERL AssetHub account, use your current
                       password to accept this invitation.
                     </Notice>
                   )}
@@ -403,7 +403,7 @@ export default function Access({
                   <div className="auth-mode-switch">
                     {mode === "login" ? (
                       <>
-                        New to AssetHub?{" "}
+                        New to ERL AssetHub?{" "}
                         <button type="button" onClick={() => setMode("register")}>
                           Create an account
                         </button>
@@ -425,7 +425,7 @@ export default function Access({
       </main>
 
       <footer className="auth-footer">
-        <span>© 2026 AssetHub</span>
+        <span>© 2026 ERL AssetHub</span>
         <span>Private workspaces · Clear asset histories</span>
       </footer>
     </div>

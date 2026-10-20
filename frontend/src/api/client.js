@@ -44,7 +44,7 @@ export async function api(path, options = {}) {
     });
   } catch {
     throw new Error(
-      "Could not reach AssetHub. Check your connection and try again.",
+      "Could not reach ERL AssetHub. Check your connection and try again.",
     );
   }
   const body =
