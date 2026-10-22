@@ -551,14 +551,19 @@ async function acceptInvite(req, res) {
         data: { name, email: userEmail, password: userPassword },
       });
     }
-    await tx.membership.update({
-      where: { id: invitation.membershipId },
+    const activated = await tx.membership.updateMany({
+      where: {
+        id: invitation.membershipId,
+        organizationId: invitation.organizationId,
+        status: "INVITED",
+      },
       data: {
         userId: acceptedUser.id,
         name: existing ? existing.name : name,
         status: "ACTIVE",
       },
     });
+    ensure(activated.count === 1, 400, "Invitation is invalid or expired");
     return acceptedUser.id;
   });
   res.json(await buildSession(userId, invitation.organizationId));

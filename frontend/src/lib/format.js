@@ -3,18 +3,25 @@ export const titleCase = (value) =>
     .toLowerCase()
     .replaceAll("_", " ")
     .replace(/\b\w/g, (c) => c.toUpperCase());
+const dateFormatter = new Intl.DateTimeFormat(undefined, { dateStyle: "medium" });
+let currencyFormatter;
+let currentCurrency;
+
 export const dateLabel = (value) =>
   value
-    ? new Intl.DateTimeFormat(undefined, { dateStyle: "medium" }).format(
-        new Date(value),
-      )
+    ? dateFormatter.format(new Date(value))
     : "—";
-export const money = (value, currency = "PHP") =>
-  new Intl.NumberFormat(undefined, {
-    style: "currency",
-    currency,
-    maximumFractionDigits: 0,
-  }).format(Number(value || 0));
+export const money = (value, currency = "PHP") => {
+  if (!currencyFormatter || currentCurrency !== currency) {
+    currencyFormatter = new Intl.NumberFormat(undefined, {
+      style: "currency",
+      currency,
+      maximumFractionDigits: 0,
+    });
+    currentCurrency = currency;
+  }
+  return currencyFormatter.format(Number(value || 0));
+};
 export const initials = (value) =>
   String(value || "?")
     .split(/[\s@]+/)

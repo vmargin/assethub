@@ -1,0 +1,471 @@
+{
+  "generator": "AssetHub project fallback using @babel/parser; not native Sauron graph",
+  "scope": [
+    "api",
+    "backend/src",
+    "frontend/src"
+  ],
+  "nodes": [
+    {
+      "id": "api/index.js",
+      "lines": 2
+    },
+    {
+      "id": "backend/src/controllers/authController.js",
+      "lines": 579
+    },
+    {
+      "id": "backend/src/controllers/workspaceController.js",
+      "lines": 1255
+    },
+    {
+      "id": "backend/src/db/prisma.js",
+      "lines": 12
+    },
+    {
+      "id": "backend/src/lib/api.js",
+      "lines": 217
+    },
+    {
+      "id": "backend/src/middleware/auth.js",
+      "lines": 81
+    },
+    {
+      "id": "backend/src/server.js",
+      "lines": 146
+    },
+    {
+      "id": "frontend/src/App.jsx",
+      "lines": 1079
+    },
+    {
+      "id": "frontend/src/api/client.js",
+      "lines": 75
+    },
+    {
+      "id": "frontend/src/components/AssetVisual.jsx",
+      "lines": 186
+    },
+    {
+      "id": "frontend/src/components/Icon.jsx",
+      "lines": 141
+    },
+    {
+      "id": "frontend/src/components/UI.jsx",
+      "lines": 248
+    },
+    {
+      "id": "frontend/src/lib/csv.js",
+      "lines": 56
+    },
+    {
+      "id": "frontend/src/lib/format.js",
+      "lines": 55
+    },
+    {
+      "id": "frontend/src/main.jsx",
+      "lines": 11
+    },
+    {
+      "id": "frontend/src/pages/Access.jsx",
+      "lines": 434
+    },
+    {
+      "id": "frontend/src/pages/AssetsPage.jsx",
+      "lines": 1098
+    },
+    {
+      "id": "frontend/src/pages/Dashboard.jsx",
+      "lines": 428
+    },
+    {
+      "id": "frontend/src/pages/Operations.jsx",
+      "lines": 1521
+    }
+  ],
+  "edges": [
+    {
+      "from": "api/index.js",
+      "to": "backend/src/server.js"
+    },
+    {
+      "from": "backend/src/controllers/authController.js",
+      "to": "backend/src/db/prisma.js"
+    },
+    {
+      "from": "backend/src/controllers/authController.js",
+      "to": "backend/src/lib/api.js"
+    },
+    {
+      "from": "backend/src/controllers/workspaceController.js",
+      "to": "backend/src/db/prisma.js"
+    },
+    {
+      "from": "backend/src/controllers/workspaceController.js",
+      "to": "backend/src/lib/api.js"
+    },
+    {
+      "from": "backend/src/middleware/auth.js",
+      "to": "backend/src/db/prisma.js"
+    },
+    {
+      "from": "backend/src/server.js",
+      "to": "backend/src/controllers/authController.js"
+    },
+    {
+      "from": "backend/src/server.js",
+      "to": "backend/src/controllers/workspaceController.js"
+    },
+    {
+      "from": "backend/src/server.js",
+      "to": "backend/src/db/prisma.js"
+    },
+    {
+      "from": "backend/src/server.js",
+      "to": "backend/src/lib/api.js"
+    },
+    {
+      "from": "backend/src/server.js",
+      "to": "backend/src/middleware/auth.js"
+    },
+    {
+      "from": "frontend/src/App.jsx",
+      "to": "frontend/src/api/client.js"
+    },
+    {
+      "from": "frontend/src/App.jsx",
+      "to": "frontend/src/components/AssetVisual.jsx"
+    },
+    {
+      "from": "frontend/src/App.jsx",
+      "to": "frontend/src/components/Icon.jsx"
+    },
+    {
+      "from": "frontend/src/App.jsx",
+      "to": "frontend/src/components/UI.jsx"
+    },
+    {
+      "from": "frontend/src/App.jsx",
+      "to": "frontend/src/lib/format.js"
+    },
+    {
+      "from": "frontend/src/App.jsx",
+      "to": "frontend/src/pages/Access.jsx"
+    },
+    {
+      "from": "frontend/src/App.jsx",
+      "to": "frontend/src/pages/AssetsPage.jsx"
+    },
+    {
+      "from": "frontend/src/App.jsx",
+      "to": "frontend/src/pages/Dashboard.jsx"
+    },
+    {
+      "from": "frontend/src/App.jsx",
+      "to": "frontend/src/pages/Operations.jsx"
+    },
+    {
+      "from": "frontend/src/components/UI.jsx",
+      "to": "frontend/src/lib/format.js"
+    },
+    {
+      "from": "frontend/src/components/UI.jsx",
+      "to": "frontend/src/components/Icon.jsx"
+    },
+    {
+      "from": "frontend/src/main.jsx",
+      "to": "frontend/src/App.jsx"
+    },
+    {
+      "from": "frontend/src/pages/Access.jsx",
+      "to": "frontend/src/api/client.js"
+    },
+    {
+      "from": "frontend/src/pages/Access.jsx",
+      "to": "frontend/src/components/Icon.jsx"
+    },
+    {
+      "from": "frontend/src/pages/Access.jsx",
+      "to": "frontend/src/components/UI.jsx"
+    },
+    {
+      "from": "frontend/src/pages/AssetsPage.jsx",
+      "to": "frontend/src/api/client.js"
+    },
+    {
+      "from": "frontend/src/pages/AssetsPage.jsx",
+      "to": "frontend/src/components/AssetVisual.jsx"
+    },
+    {
+      "from": "frontend/src/pages/AssetsPage.jsx",
+      "to": "frontend/src/components/Icon.jsx"
+    },
+    {
+      "from": "frontend/src/pages/AssetsPage.jsx",
+      "to": "frontend/src/components/UI.jsx"
+    },
+    {
+      "from": "frontend/src/pages/AssetsPage.jsx",
+      "to": "frontend/src/lib/csv.js"
+    },
+    {
+      "from": "frontend/src/pages/AssetsPage.jsx",
+      "to": "frontend/src/lib/format.js"
+    },
+    {
+      "from": "frontend/src/pages/Dashboard.jsx",
+      "to": "frontend/src/components/AssetVisual.jsx"
+    },
+    {
+      "from": "frontend/src/pages/Dashboard.jsx",
+      "to": "frontend/src/components/Icon.jsx"
+    },
+    {
+      "from": "frontend/src/pages/Dashboard.jsx",
+      "to": "frontend/src/components/UI.jsx"
+    },
+    {
+      "from": "frontend/src/pages/Dashboard.jsx",
+      "to": "frontend/src/lib/format.js"
+    },
+    {
+      "from": "frontend/src/pages/Operations.jsx",
+      "to": "frontend/src/api/client.js"
+    },
+    {
+      "from": "frontend/src/pages/Operations.jsx",
+      "to": "frontend/src/components/Icon.jsx"
+    },
+    {
+      "from": "frontend/src/pages/Operations.jsx",
+      "to": "frontend/src/components/UI.jsx"
+    },
+    {
+      "from": "frontend/src/pages/Operations.jsx",
+      "to": "frontend/src/lib/csv.js"
+    },
+    {
+      "from": "frontend/src/pages/Operations.jsx",
+      "to": "frontend/src/lib/format.js"
+    }
+  ],
+  "resources": [
+    {
+      "from": "frontend/src/main.jsx",
+      "to": "frontend/src/index.css"
+    },
+    {
+      "from": "frontend/src/pages/Access.jsx",
+      "to": "frontend/src/pages/Access.css"
+    }
+  ],
+  "external": [
+    {
+      "from": "backend/src/controllers/authController.js",
+      "specifier": "bcryptjs"
+    },
+    {
+      "from": "backend/src/controllers/authController.js",
+      "specifier": "crypto"
+    },
+    {
+      "from": "backend/src/controllers/authController.js",
+      "specifier": "jsonwebtoken"
+    },
+    {
+      "from": "backend/src/controllers/workspaceController.js",
+      "specifier": "bcryptjs"
+    },
+    {
+      "from": "backend/src/controllers/workspaceController.js",
+      "specifier": "crypto"
+    },
+    {
+      "from": "backend/src/controllers/workspaceController.js",
+      "specifier": "qrcode"
+    },
+    {
+      "from": "backend/src/db/prisma.js",
+      "specifier": "@prisma/client"
+    },
+    {
+      "from": "backend/src/lib/api.js",
+      "specifier": "crypto"
+    },
+    {
+      "from": "backend/src/middleware/auth.js",
+      "specifier": "jsonwebtoken"
+    },
+    {
+      "from": "backend/src/server.js",
+      "specifier": "cors"
+    },
+    {
+      "from": "backend/src/server.js",
+      "specifier": "dotenv"
+    },
+    {
+      "from": "backend/src/server.js",
+      "specifier": "express"
+    },
+    {
+      "from": "frontend/src/App.jsx",
+      "specifier": "react"
+    },
+    {
+      "from": "frontend/src/components/AssetVisual.jsx",
+      "specifier": "react"
+    },
+    {
+      "from": "frontend/src/components/Icon.jsx",
+      "specifier": "lucide-react"
+    },
+    {
+      "from": "frontend/src/components/UI.jsx",
+      "specifier": "react"
+    },
+    {
+      "from": "frontend/src/main.jsx",
+      "specifier": "react"
+    },
+    {
+      "from": "frontend/src/main.jsx",
+      "specifier": "react-dom/client"
+    },
+    {
+      "from": "frontend/src/pages/Access.jsx",
+      "specifier": "react"
+    },
+    {
+      "from": "frontend/src/pages/AssetsPage.jsx",
+      "specifier": "react"
+    },
+    {
+      "from": "frontend/src/pages/Dashboard.jsx",
+      "specifier": "react"
+    },
+    {
+      "from": "frontend/src/pages/Operations.jsx",
+      "specifier": "react"
+    }
+  ],
+  "unresolved": [],
+  "cycles": [],
+  "boundaryViolations": [],
+  "hubs": [
+    {
+      "id": "frontend/src/App.jsx",
+      "lines": 1079,
+      "imports": 9,
+      "importedBy": 1
+    },
+    {
+      "id": "frontend/src/components/UI.jsx",
+      "lines": 248,
+      "imports": 2,
+      "importedBy": 5
+    },
+    {
+      "id": "frontend/src/pages/AssetsPage.jsx",
+      "lines": 1098,
+      "imports": 6,
+      "importedBy": 1
+    },
+    {
+      "id": "backend/src/server.js",
+      "lines": 146,
+      "imports": 5,
+      "importedBy": 1
+    },
+    {
+      "id": "frontend/src/components/Icon.jsx",
+      "lines": 141,
+      "imports": 0,
+      "importedBy": 6
+    },
+    {
+      "id": "frontend/src/pages/Operations.jsx",
+      "lines": 1521,
+      "imports": 5,
+      "importedBy": 1
+    },
+    {
+      "id": "frontend/src/lib/format.js",
+      "lines": 55,
+      "imports": 0,
+      "importedBy": 5
+    },
+    {
+      "id": "frontend/src/pages/Dashboard.jsx",
+      "lines": 428,
+      "imports": 4,
+      "importedBy": 1
+    },
+    {
+      "id": "backend/src/db/prisma.js",
+      "lines": 12,
+      "imports": 0,
+      "importedBy": 4
+    },
+    {
+      "id": "frontend/src/api/client.js",
+      "lines": 75,
+      "imports": 0,
+      "importedBy": 4
+    },
+    {
+      "id": "frontend/src/pages/Access.jsx",
+      "lines": 434,
+      "imports": 3,
+      "importedBy": 1
+    },
+    {
+      "id": "backend/src/controllers/authController.js",
+      "lines": 579,
+      "imports": 2,
+      "importedBy": 1
+    },
+    {
+      "id": "backend/src/controllers/workspaceController.js",
+      "lines": 1255,
+      "imports": 2,
+      "importedBy": 1
+    },
+    {
+      "id": "backend/src/lib/api.js",
+      "lines": 217,
+      "imports": 0,
+      "importedBy": 3
+    },
+    {
+      "id": "frontend/src/components/AssetVisual.jsx",
+      "lines": 186,
+      "imports": 0,
+      "importedBy": 3
+    },
+    {
+      "id": "backend/src/middleware/auth.js",
+      "lines": 81,
+      "imports": 1,
+      "importedBy": 1
+    },
+    {
+      "id": "frontend/src/lib/csv.js",
+      "lines": 56,
+      "imports": 0,
+      "importedBy": 2
+    },
+    {
+      "id": "api/index.js",
+      "lines": 2,
+      "imports": 1,
+      "importedBy": 0
+    },
+    {
+      "id": "frontend/src/main.jsx",
+      "lines": 11,
+      "imports": 1,
+      "importedBy": 0
+    }
+  ]
+}

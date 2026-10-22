@@ -539,10 +539,15 @@ async function transferAsset(req, res) {
       409,
       "Retired assets cannot be transferred",
     );
-    const updated = await tx.asset.update({
-      where: { id: asset.id },
+    const changed = await tx.asset.updateMany({
+      where: {
+        id: asset.id,
+        organizationId: req.organizationId,
+        status: { not: "RETIRED" },
+      },
       data: { locationId },
     });
+    ensure(changed.count === 1, 409, "Asset state changed during transfer");
     await recordActivity(
       tx,
       req.organizationId,
@@ -551,7 +556,7 @@ async function transferAsset(req, res) {
       "Asset location changed.",
       asset.id,
     );
-    return updated;
+    return tx.asset.findUnique({ where: { id: asset.id } });
   });
   res.json(publicAsset(result));
 }

@@ -1,7 +1,15 @@
 version: "1.0.0"
+# Schema version above; the executable is pinned to sauron-ai 3.0.0 in package.json.
+# Project guidance is hand-maintained in AGENTS.md. Native sync is preview-only
+# unless its generated instructions have been reviewed against this project.
+init:
+  runtimes: [codex]
+  agents: none # Native init generates Claude agents only; Codex uses its runtime tools.
+  skills: none # Load the complete pinned package lazily, without copying it.
+  commands: false
 project:
   name: "asset-hub"
-  description: "Reference-driven multi-tenant asset management application"
+  description: "AssetHub: React 19/Vite JSX and CSS, Express 5/CommonJS, Prisma 6/PostgreSQL, same-origin Vercel API"
   language: "multi"
   framework: "react"
 runtimes:
@@ -17,13 +25,16 @@ runtimes:
   hermes: false
   kimi: false
   kiro: false
-  openclaude: false
+  openclaw: false
   opencode: false
   pi: false
   qwen: false
   adal: false
   codebuddy: false
 fellowship:
+  gandalf:
+    enabled: true
+    role: "Master Planner and Strategy Guide"
   aragorn:
     enabled: true
     role: "Principal System Architect"
@@ -36,6 +47,18 @@ fellowship:
   merry:
     enabled: true
     role: "QA Specialist"
+  legolas:
+    enabled: true
+    role: "Precision Linter and Syntax Bug Hunter"
+  gimli:
+    enabled: true
+    role: "Refactorer and AST Dead Code Slasher"
+  pippin:
+    enabled: true
+    role: "Edge Case and Chaos Prober"
+  samwise:
+    enabled: true
+    role: "Git Commits and State Keeper"
 departments:
   architecture: true
   backend: true
@@ -50,6 +73,7 @@ caveman:
   default_mode: "off"
   enforce_on_commits: false
 security:
+  # Declarative upstream preferences, not proof of an installed command firewall.
   agent_guard: true
   block_destructive_commands: true
   protect_credentials: true

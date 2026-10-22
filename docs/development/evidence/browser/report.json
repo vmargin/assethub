@@ -1,0 +1,1468 @@
+{
+  "startedAt": "2026-10-22T22:45:54.118Z",
+  "endedAt": "2026-10-22T22:46:19.914Z",
+  "browser": "Chromium via Playwright",
+  "syntheticLocalDatabase": true,
+  "baseline": false,
+  "results": [
+    {
+      "surface": "access",
+      "theme": "light",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 320,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 0
+    },
+    {
+      "surface": "access",
+      "theme": "light",
+      "width": 375,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 375,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 0
+    },
+    {
+      "surface": "access",
+      "theme": "light",
+      "width": 425,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 425,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 0
+    },
+    {
+      "surface": "access",
+      "theme": "light",
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 768,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 0
+    },
+    {
+      "surface": "access",
+      "theme": "light",
+      "width": 1024,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 1024,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 0
+    },
+    {
+      "surface": "access",
+      "theme": "light",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 1440,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 0
+    },
+    {
+      "surface": "dashboard",
+      "theme": "light",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 320,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 6
+    },
+    {
+      "surface": "dashboard",
+      "theme": "light",
+      "width": 375,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 375,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 6
+    },
+    {
+      "surface": "dashboard",
+      "theme": "light",
+      "width": 425,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 425,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 6
+    },
+    {
+      "surface": "dashboard",
+      "theme": "light",
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 768,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 5
+    },
+    {
+      "surface": "dashboard",
+      "theme": "light",
+      "width": 1024,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 1024,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 5
+    },
+    {
+      "surface": "dashboard",
+      "theme": "light",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 1440,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 5
+    },
+    {
+      "surface": "assets",
+      "theme": "light",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "viewportWidth": 320,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 74
+    },
+    {
+      "surface": "assets",
+      "theme": "light",
+      "width": 375,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "viewportWidth": 375,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 74
+    },
+    {
+      "surface": "assets",
+      "theme": "light",
+      "width": 425,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "viewportWidth": 425,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 74
+    },
+    {
+      "surface": "assets",
+      "theme": "light",
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "viewportWidth": 768,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 80
+    },
+    {
+      "surface": "assets",
+      "theme": "light",
+      "width": 1024,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "viewportWidth": 1024,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 80
+    },
+    {
+      "surface": "assets",
+      "theme": "light",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "viewportWidth": 1440,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 80
+    },
+    {
+      "surface": "add-asset-dialog",
+      "theme": "light",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [],
+      "overflow": false,
+      "viewportWidth": 1440,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 80
+    },
+    {
+      "surface": "locations",
+      "theme": "light",
+      "width": 320,
+      "violations": [],
+      "incomplete": [],
+      "overflow": false,
+      "viewportWidth": 320,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 3
+    },
+    {
+      "surface": "locations",
+      "theme": "light",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "viewportWidth": 1440,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 2
+    },
+    {
+      "surface": "people",
+      "theme": "light",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 320,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 8
+    },
+    {
+      "surface": "people",
+      "theme": "light",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 1440,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 7
+    },
+    {
+      "surface": "requests",
+      "theme": "light",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 320,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 4
+    },
+    {
+      "surface": "requests",
+      "theme": "light",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 1440,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 3
+    },
+    {
+      "surface": "audits",
+      "theme": "light",
+      "width": 320,
+      "violations": [],
+      "incomplete": [],
+      "overflow": false,
+      "viewportWidth": 320,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 4
+    },
+    {
+      "surface": "audits",
+      "theme": "light",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "viewportWidth": 1440,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 3
+    },
+    {
+      "surface": "categories",
+      "theme": "light",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 320,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 9
+    },
+    {
+      "surface": "categories",
+      "theme": "light",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 1440,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 8
+    },
+    {
+      "surface": "reports",
+      "theme": "light",
+      "width": 320,
+      "violations": [],
+      "incomplete": [],
+      "overflow": false,
+      "viewportWidth": 320,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 3
+    },
+    {
+      "surface": "reports",
+      "theme": "light",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "viewportWidth": 1440,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 2
+    },
+    {
+      "surface": "settings",
+      "theme": "light",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 320,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 3
+    },
+    {
+      "surface": "settings",
+      "theme": "light",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "viewportWidth": 1440,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 2
+    },
+    {
+      "surface": "mobile-navigation",
+      "theme": "light",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "viewportWidth": 320,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--muted": "#59675e",
+        "--accent": "#315e4d",
+        "--accent-text": "#fff",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 5
+    },
+    {
+      "surface": "access",
+      "theme": "dark",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 320,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 0
+    },
+    {
+      "surface": "access",
+      "theme": "dark",
+      "width": 375,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 375,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 0
+    },
+    {
+      "surface": "access",
+      "theme": "dark",
+      "width": 425,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 425,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 0
+    },
+    {
+      "surface": "access",
+      "theme": "dark",
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 768,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 0
+    },
+    {
+      "surface": "access",
+      "theme": "dark",
+      "width": 1024,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 1024,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 0
+    },
+    {
+      "surface": "access",
+      "theme": "dark",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 1440,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 0
+    },
+    {
+      "surface": "dashboard",
+      "theme": "dark",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 320,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 6
+    },
+    {
+      "surface": "dashboard",
+      "theme": "dark",
+      "width": 375,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 375,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 6
+    },
+    {
+      "surface": "dashboard",
+      "theme": "dark",
+      "width": 425,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 425,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 6
+    },
+    {
+      "surface": "dashboard",
+      "theme": "dark",
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 768,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 5
+    },
+    {
+      "surface": "dashboard",
+      "theme": "dark",
+      "width": 1024,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 1024,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 5
+    },
+    {
+      "surface": "dashboard",
+      "theme": "dark",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 1440,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 5
+    },
+    {
+      "surface": "assets",
+      "theme": "dark",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "viewportWidth": 320,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 74
+    },
+    {
+      "surface": "assets",
+      "theme": "dark",
+      "width": 375,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "viewportWidth": 375,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 74
+    },
+    {
+      "surface": "assets",
+      "theme": "dark",
+      "width": 425,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "viewportWidth": 425,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 74
+    },
+    {
+      "surface": "assets",
+      "theme": "dark",
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "viewportWidth": 768,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 80
+    },
+    {
+      "surface": "assets",
+      "theme": "dark",
+      "width": 1024,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "viewportWidth": 1024,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 80
+    },
+    {
+      "surface": "assets",
+      "theme": "dark",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "viewportWidth": 1440,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 80
+    },
+    {
+      "surface": "add-asset-dialog",
+      "theme": "dark",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [],
+      "overflow": false,
+      "viewportWidth": 1440,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 80
+    },
+    {
+      "surface": "locations",
+      "theme": "dark",
+      "width": 320,
+      "violations": [],
+      "incomplete": [],
+      "overflow": false,
+      "viewportWidth": 320,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 3
+    },
+    {
+      "surface": "locations",
+      "theme": "dark",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "viewportWidth": 1440,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 2
+    },
+    {
+      "surface": "people",
+      "theme": "dark",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 320,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 8
+    },
+    {
+      "surface": "people",
+      "theme": "dark",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 1440,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 7
+    },
+    {
+      "surface": "requests",
+      "theme": "dark",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 320,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 4
+    },
+    {
+      "surface": "requests",
+      "theme": "dark",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 1440,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 3
+    },
+    {
+      "surface": "audits",
+      "theme": "dark",
+      "width": 320,
+      "violations": [],
+      "incomplete": [],
+      "overflow": false,
+      "viewportWidth": 320,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 4
+    },
+    {
+      "surface": "audits",
+      "theme": "dark",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "viewportWidth": 1440,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 3
+    },
+    {
+      "surface": "categories",
+      "theme": "dark",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 320,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 9
+    },
+    {
+      "surface": "categories",
+      "theme": "dark",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 1440,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 8
+    },
+    {
+      "surface": "reports",
+      "theme": "dark",
+      "width": 320,
+      "violations": [],
+      "incomplete": [],
+      "overflow": false,
+      "viewportWidth": 320,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 3
+    },
+    {
+      "surface": "reports",
+      "theme": "dark",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "viewportWidth": 1440,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 2
+    },
+    {
+      "surface": "settings",
+      "theme": "dark",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "viewportWidth": 320,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 3
+    },
+    {
+      "surface": "settings",
+      "theme": "dark",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "viewportWidth": 1440,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 2
+    },
+    {
+      "surface": "mobile-navigation",
+      "theme": "dark",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "viewportWidth": 320,
+      "tokens": {
+        "--canvas": "#171f1d",
+        "--surface": "#202a26",
+        "--text": "#e8ece4",
+        "--muted": "#acb9ad",
+        "--accent": "#a7c6aa",
+        "--accent-text": "#19261e",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 5
+    }
+  ],
+  "interactions": [
+    {
+      "theme": "light",
+      "check": "dialog survives StrictMode, traps focus, closes on Escape and restores trigger focus",
+      "status": "pass"
+    },
+    {
+      "theme": "light",
+      "check": "create, checkout, return, transfer and retire an asset through the UI",
+      "status": "pass"
+    },
+    {
+      "theme": "light",
+      "check": "mobile navigation focus and Escape restoration",
+      "status": "pass"
+    },
+    {
+      "theme": "dark",
+      "check": "dialog survives StrictMode, traps focus, closes on Escape and restores trigger focus",
+      "status": "pass"
+    },
+    {
+      "theme": "dark",
+      "check": "create, checkout, return, transfer and retire an asset through the UI",
+      "status": "pass"
+    },
+    {
+      "theme": "dark",
+      "check": "mobile navigation focus and Escape restoration",
+      "status": "pass"
+    }
+  ],
+  "failures": []
+}

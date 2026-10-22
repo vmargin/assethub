@@ -144,7 +144,11 @@ export function Dialog({
       aria-labelledby={titleId}
       className={`dialog${drawer ? " dialog--drawer" : ""}`}
       onKeyDown={keepFocusInside}
-      onClose={onClose}
+      onClose={(event) => {
+        // Effect cleanup can queue a close event before StrictMode reopens the
+        // same dialog. Ignore that stale event while it is currently open.
+        if (!event.currentTarget.open) onClose?.(event);
+      }}
       onCancel={onClose}
     >
       <div className="dialog__header">

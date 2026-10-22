@@ -19,10 +19,17 @@ backend/dist/
 # Logs
 *.log
 .playwright-mcp/
-.agents/
+# Keep the project workflow; vendor skills stay local or in the pinned package.
+.agents/*
+!.agents/skills/
+.agents/skills/*
+!.agents/skills/assethub-workflow/
 .sauron/backups/
 .sauron/skills/
 .sauron/manifest.json
+.sauron/runtime/
+test-results/
+playwright-report/
 .env.*
 backend/.env.*
 frontend/.env.*
@@ -65,3 +72,5 @@ Thumbs.db
 # Prisma
 backend/prisma/migrations/*.sql
 !backend/prisma/migrations/*/migration.sql
+.vercel
+.env*

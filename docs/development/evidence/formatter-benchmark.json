@@ -1,0 +1,21 @@
+{
+  "startedAt": "2026-10-22T22:31:26.678Z",
+  "endedAt": "2026-10-22T22:31:27.764Z",
+  "iterations": 3000,
+  "samples": 3,
+  "baseline": "git HEAD:frontend/src/lib/format.js",
+  "baselineMs": [
+    332.5046,
+    378.79540000000003,
+    351.88570000000004
+  ],
+  "currentMs": [
+    8.288999999999987,
+    6.517100000000028,
+    6.449299999999994
+  ],
+  "baselineMedianMs": 351.88570000000004,
+  "currentMedianMs": 6.517100000000028,
+  "outputEquivalence": true,
+  "limitation": "Local formatting microbenchmark, not end-to-end page timing. No timing threshold is enforced in CI."
+}

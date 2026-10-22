@@ -1,0 +1,22 @@
+{
+  "name": "assethub-development",
+  "private": true,
+  "scripts": {
+    "sauron": "sauron",
+    "ai:check": "node scripts/sauron-workflow.mjs check",
+    "ai:find": "node scripts/sauron-workflow.mjs find",
+    "ai:scan": "node scripts/sauron-workflow.mjs scan",
+    "ai:architecture": "node scripts/analyze-architecture.mjs",
+    "ai:benchmark": "node scripts/benchmark-formatters.mjs",
+    "test:workflow": "node --test scripts/sauron-workflow.test.mjs",
+    "test:architecture": "node --test scripts/analyze-architecture.test.mjs",
+    "test:frontend": "node --test frontend/test/*.test.mjs",
+    "test:browser": "node scripts/run-browser-audit.mjs",
+    "verify": "npm run ai:check && npm run test:workflow && npm run test:architecture && npm run test:frontend && npm run ai:architecture && npm run lint --prefix frontend && npm run build --prefix frontend && npm run build --prefix backend"
+  },
+  "devDependencies": {
+    "@babel/parser": "7.28.5",
+    "@playwright/test": "1.64.1",
+    "sauron-ai": "3.0.0"
+  }
+}

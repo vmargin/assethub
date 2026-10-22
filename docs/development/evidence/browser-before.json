@@ -1,0 +1,338 @@
+{
+  "timestamp": "2026-10-22T22:27:53.363Z",
+  "browser": "Chromium via Playwright",
+  "syntheticLocalDatabase": true,
+  "baseline": true,
+  "results": [
+    {
+      "surface": "access",
+      "theme": "light",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--accent": "#315e4d",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 0
+    },
+    {
+      "surface": "access",
+      "theme": "light",
+      "width": 375,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--accent": "#315e4d",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 0
+    },
+    {
+      "surface": "access",
+      "theme": "light",
+      "width": 425,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--accent": "#315e4d",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 0
+    },
+    {
+      "surface": "access",
+      "theme": "light",
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--accent": "#315e4d",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 0
+    },
+    {
+      "surface": "access",
+      "theme": "light",
+      "width": 1024,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--accent": "#315e4d",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 0
+    },
+    {
+      "surface": "access",
+      "theme": "light",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--accent": "#315e4d",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 0
+    },
+    {
+      "surface": "dashboard",
+      "theme": "light",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--accent": "#315e4d",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 6
+    },
+    {
+      "surface": "dashboard",
+      "theme": "light",
+      "width": 375,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--accent": "#315e4d",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 6
+    },
+    {
+      "surface": "dashboard",
+      "theme": "light",
+      "width": 425,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "overflow": false,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--accent": "#315e4d",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 6
+    },
+    {
+      "surface": "dashboard",
+      "theme": "light",
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "overflow": false,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--accent": "#315e4d",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 5
+    },
+    {
+      "surface": "dashboard",
+      "theme": "light",
+      "width": 1024,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "overflow": false,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--accent": "#315e4d",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 5
+    },
+    {
+      "surface": "dashboard",
+      "theme": "light",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "overflow": false,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--accent": "#315e4d",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 5
+    },
+    {
+      "surface": "assets",
+      "theme": "light",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--accent": "#315e4d",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 74
+    },
+    {
+      "surface": "assets",
+      "theme": "light",
+      "width": 375,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--accent": "#315e4d",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 74
+    },
+    {
+      "surface": "assets",
+      "theme": "light",
+      "width": 425,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--accent": "#315e4d",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 74
+    },
+    {
+      "surface": "assets",
+      "theme": "light",
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--accent": "#315e4d",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 80
+    },
+    {
+      "surface": "assets",
+      "theme": "light",
+      "width": 1024,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--accent": "#315e4d",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 80
+    },
+    {
+      "surface": "assets",
+      "theme": "light",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr"
+      ],
+      "overflow": false,
+      "tokens": {
+        "--canvas": "#f4f3ee",
+        "--surface": "#fbfaf6",
+        "--text": "#23342d",
+        "--accent": "#315e4d",
+        "--serif": "\"Newsreader\", Georgia, serif"
+      },
+      "controlsUnder44px": 80
+    }
+  ],
+  "failures": [
+    "expect(locator).toBeVisible() failed\n\nLocator: getByRole('dialog')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" getByRole('dialog') with timeout 5000ms\n  - waiting for getByRole('dialog')\n"
+  ]
+}

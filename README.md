@@ -73,6 +73,26 @@ npm test --prefix backend
 
 Database tests skip unless `RUN_DB_TESTS=1` is explicitly set. Enable that flag only with a dedicated development database: those tests create and clean synthetic fixtures. [Existing verification evidence](docs/overhaul/verification.md) records the earlier lifecycle, tenant, concurrency, browser, and deployment checks.
 
+## Development with Sauron
+
+Run `npm ci` at the repository root to install the pinned Sauron development harness.
+Project and scoped `AGENTS.md` instructions automatically route relevant tasks to
+Fellowship roles, architecture guidance and the complete frontend design-engineering
+suite. Skills load on demand to keep small tasks lightweight.
+
+Use `npm run ai:find -- "<task>"` to find applicable skills, `npm run ai:check` to
+check the integration, and `npm run verify` for workflow tests, frontend lint/build
+and Prisma validation/client generation, with architecture and formatting regressions.
+`npm run ai:architecture` produces an AST dependency report. GitHub Actions also runs
+API tests and `npm run test:browser` against a disposable PostgreSQL database.
+Local browser checks require a dedicated local database in `AUDIT_DATABASE_URL`.
+See the [execution evidence](docs/development/evidence/execution-report.md) and
+[Sauron workflow and architecture map](docs/development/sauron.md)
+for capability routing, setup, tool limitations and upgrade instructions.
+
+Generated adapters and Fellowship configuration are not evidence that those
+runtimes ran. Report actual specialist execution and verification results.
+
 ## Contribution and limits
 
 I hand-coded the original. In v2 I used AI for frontend redesign and deployment. In v3 I used AI for redesign, development, and deployment, with user research informing feature selection. I review missing features, expected outputs, and behavior.

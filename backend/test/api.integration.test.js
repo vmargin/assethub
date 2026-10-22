@@ -865,6 +865,87 @@ test(
   },
 );
 
+test("invitation acceptance cannot reactivate a concurrently suspended membership", { skip: !enabled }, async (t) => {
+  const f = await fixture(t);
+  const invitation = await f.request("/people", {
+    method: "POST", token: f.owner,
+    body: { name: "Foreign Member", email: f.foreignEmail, role: "MEMBER" },
+  });
+  assert.equal(invitation.status, 201);
+  const token = new URL(invitation.data.inviteUrl).searchParams.get("invite");
+  const compare = bcrypt.compare;
+  let suspended = false;
+  t.mock.method(bcrypt, "compare", async (...args) => {
+    const matches = await compare(...args);
+    if (matches && !suspended) {
+      suspended = true;
+      const response = await f.request(`/people/${invitation.data.person.id}`, {
+        method: "PATCH", token: f.owner, body: { status: "SUSPENDED" },
+      });
+      assert.equal(response.status, 200);
+    }
+    return matches;
+  });
+  const accepted = await f.request("/auth/accept-invite", {
+    method: "POST", organizationId: null,
+    body: { token, name: "Foreign Member", password: f.foreignPassword },
+  });
+  assert.equal(suspended, true, "suspension must commit between validation and acceptance");
+  assert.equal(accepted.status, 400);
+  const membership = await prisma.membership.findUnique({ where: { id: invitation.data.person.id } });
+  assert.equal(membership.status, "SUSPENDED");
+  const savedInvite = await prisma.invitation.findUnique({
+    where: { tokenHash: crypto.createHash("sha256").update(token).digest("hex") },
+  });
+  assert.equal(savedInvite.acceptedAt, null, "failed acceptance must roll back the token claim");
+});
+
+test("a transfer cannot move an asset retired after its initial read", { skip: !enabled }, async (t) => {
+  const f = await fixture(t);
+  const originalTransaction = prisma.$transaction.bind(prisma);
+  let retired = false;
+  // Interleave a real retirement after the transfer's read, without timer races.
+  const transactionMethod = prisma.$transaction;
+  t.after(() => { prisma.$transaction = transactionMethod; });
+  prisma.$transaction = (operation, ...options) => {
+    if (typeof operation !== "function") return originalTransaction(operation, ...options);
+    return originalTransaction(async (tx) => {
+      const assetDelegate = new Proxy(tx.asset, {
+        get(target, property) {
+          if (property !== "findFirst") return Reflect.get(target, property);
+          return async (...args) => {
+            const asset = await target.findFirst(...args);
+            if (asset?.id === f.assetId && !retired) {
+              retired = true;
+              const response = await f.request(`/assets/${f.assetId}/retire`, {
+                method: "POST", token: f.owner,
+              });
+              assert.equal(response.status, 200);
+            }
+            return asset;
+          };
+        },
+      });
+      return operation(new Proxy(tx, {
+        get(target, property) {
+          return property === "asset" ? assetDelegate : Reflect.get(target, property);
+        },
+      }));
+    }, ...options);
+  };
+  const transferred = await f.request(`/assets/${f.assetId}/transfer`, {
+    method: "POST", token: f.owner, body: { locationId: f.locationId },
+  });
+  assert.equal(retired, true);
+  assert.equal(transferred.status, 409);
+  const asset = await prisma.asset.findUnique({ where: { id: f.assetId } });
+  assert.equal(asset.status, "RETIRED");
+  assert.equal(asset.locationId, null);
+  assert.equal(await prisma.activity.count({
+    where: { organizationId: f.orgA.id, assetId: f.assetId, action: "asset.transferred" },
+  }), 0, "a rejected transition must not append transfer history");
+});
+
 test("the API starts without binding when imported", { skip: !enabled }, () => {
   assert.equal(typeof app, "function");
 });

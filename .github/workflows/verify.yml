@@ -1,0 +1,63 @@
+name: Verify development workflow and application
+
+on:
+  pull_request:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    services:
+      postgres:
+        image: postgres:18
+        env:
+          POSTGRES_USER: assethub_test
+          POSTGRES_PASSWORD: local-ci-fixture
+          POSTGRES_DB: assethub_execution
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U assethub_test -d assethub_execution"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    env:
+      # Synthetic credentials belong only to this job's disposable database.
+      DATABASE_URL: postgresql://assethub_test:local-ci-fixture@127.0.0.1:5432/assethub_execution
+      AUDIT_DATABASE_URL: postgresql://assethub_test:local-ci-fixture@127.0.0.1:5432/assethub_execution
+      JWT_SECRET: local-ci-session-secret-not-a-production-credential
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            frontend/package-lock.json
+            backend/package-lock.json
+      - run: npm ci
+      - run: npm ci --prefix frontend
+      - run: npm ci --prefix backend
+      - run: npm run verify
+      - run: npm run ai:scan
+      - run: npx prisma migrate deploy
+        working-directory: backend
+      - run: npm test --prefix backend
+        env:
+          RUN_DB_TESTS: '1'
+      - run: npx playwright install --with-deps chromium --only-shell
+      - run: npm run test:browser
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: execution-evidence
+          include-hidden-files: true
+          path: |
+            docs/development/evidence/
+            .sauron/runtime/browser-images/
