@@ -1,44 +1,54 @@
+![ERL AssetHub: an original THE MARGIN project cover](.github/media/cover.svg)
+
 # ERL AssetHub
 
-[Live application](https://erlassethub.vercel.app/) · [GitHub repository](https://github.com/vmargin/assethub)
+**Equipment lifecycle management with a workspace boundary around every operation.**
 
-A multi-tenant equipment workspace for ERL AssetHub, built around an ivory, forest-green and editorial-serif interface. The light and dark themes share the same readable controls, compact tables and focused lifecycle drawers.
+An educational multi-tenant inventory application for equipment, custodians, locations, checkout, maintenance, and audits. Its ivory/forest-green interface supports light, dark, and system appearance.
 
-![ERL AssetHub light dashboard](docs/overhaul/screenshots/dashboard-light.png)
+[Live demo](https://erlassethub.vercel.app/) · [Case study](https://vmargin.github.io/projects/assethub/)
 
-## What it does
+![AssetHub light-theme dashboard showing synthetic inventory](docs/overhaul/screenshots/dashboard-light.png)
 
-- Sign in, create an organization and switch between authorized workspaces.
-- Track equipment, categories, location hierarchies, custodians, purchase values and warranties.
-- Add/edit assets, check out and return equipment, transfer locations and retire assets with their history intact.
-- Import up to 250 assets atomically from CSV, export inventory and generate printable QR labels.
-- Invite teammates through copyable, one-use links and manage OWNER, MANAGER and MEMBER permissions.
-- Report maintenance issues, start repairs and resolve them against the saved asset lifecycle.
-- Run location audits against fixed inventory snapshots, with version checks that reject stale saves.
-- View current reports, activity notifications, global search and organization settings.
-- Persist Light, Dark or System appearance and use the app at 320px and desktop widths.
+## Implemented workflows
 
-The public demo creates two private, synthetic workspaces for each session. It never signs visitors into an existing tenant. Demo access expires after 24 hours. All demo names, inventory and activity are invented.
+- Create organizations and switch between workspaces where you are an active member.
+- Track equipment, categories, location hierarchies, custodians, purchase values, and warranties.
+- Check out, return, transfer, and retire equipment while retaining lifecycle history.
+- Import up to 250 assets atomically from CSV, export inventory, and print QR labels.
+- Share one-use invitation links and manage OWNER, MANAGER, and MEMBER permissions.
+- Report maintenance issues, record repairs, and reconcile location audits against inventory snapshots.
+- Browse reports, activity notifications, global search, and organization settings.
 
-## Architecture and safeguards
+**Demo access:** use the demo credentials displayed on the sign-in screen. Each demo session receives two isolated synthetic workspaces and expires after 24 hours; visitors do not enter an existing tenant. No real inventory or personal data is needed.
 
-React 19 and Vite serve the frontend. Express 5, Prisma 6 and PostgreSQL serve the same-origin `/api`. Vercel hosts both through `api/index.js`; no separate Railway deployment is required.
+## Architecture and rules
 
-The server verifies ACTIVE organization membership on every workspace request. Tenant-specific composite foreign keys protect related records. Asset transitions and activity commit together, and a partial unique index permits one open checkout per asset. Assets retire instead of being deleted. The last active owner cannot be demoted or suspended. API errors do not reveal secrets or query arguments.
+```mermaid
+flowchart LR
+  UI[React interface] --> API[Same-origin Express API]
+  API --> Access[Active membership and role checks]
+  Access --> Lifecycle[Asset operations and activity]
+  Lifecycle --> DB[(Prisma / PostgreSQL)]
+```
 
-Prisma uses one pool of at most two connections per server instance. Configure a suitable PostgreSQL pooler for production scale. The compatible `deepmerge-ts` override removes the Prisma CLI dependency advisory; validation, client generation and deployment were exercised with it.
+The server checks active organization membership on workspace requests. Tenant-specific composite foreign keys protect related records. Asset transitions and activity commit together; a partial unique index permits one open checkout per asset. Assets retire rather than being deleted. The final active owner cannot be demoted or suspended, and inventory audits reject stale saves.
+
+**Stack:** React 19, Vite, Express 5, Prisma 6, PostgreSQL. Vercel hosts the frontend and `api/index.js` on one origin. No separate Railway service or frontend API environment variable is required. Each server instance uses a small database pool; scaling needs an appropriate PostgreSQL pooler.
 
 ## Run locally
 
-Use Node.js 24 and a PostgreSQL database. Work from the repository root:
+Use Node.js 24 and a dedicated PostgreSQL development database:
 
 ```powershell
+git clone https://github.com/vmargin/assethub.git
+cd assethub
 npm ci --prefix backend
 npm ci --prefix frontend
 Copy-Item backend/.env.example backend/.env
 ```
 
-Set `DATABASE_URL` and a private, random `JWT_SECRET` in `backend/.env`. Set `APP_URL=http://localhost:5173` for local invitation and QR links. Then, for a new empty development database:
+Fill `DATABASE_URL` and a private random `JWT_SECRET` locally. Set `APP_URL=http://localhost:5173` for invitation and QR links. For a new, empty development database:
 
 ```powershell
 cd backend
@@ -46,11 +56,11 @@ npx prisma migrate deploy
 npm run dev
 ```
 
-In another terminal, run `npm run dev --prefix frontend` from the repository root. Open [localhost:5173](http://localhost:5173/). Vite proxies `/api` to port 5000. Sign in with your work email, create an organization, or use the demo username and password shown on the sign-in screen to open an isolated sample workspace.
+In a second terminal at the repository root, run `npm run dev --prefix frontend` and open http://localhost:5173. Vite proxies `/api` to port 5000.
 
-Existing databases require a reviewed baseline; do not run the historical initialization migrations against tables that already exist. This overhaul baselined the two historical migrations, applied two additive migrations and verified fingerprints of all original records and credentials. See [deployment and rollback](docs/overhaul/deployment.md).
+Existing databases require a reviewed baseline. Never apply historical initialization migrations blindly to existing tables. The optional additive development seed requires `ALLOW_DEVELOPMENT_SEED=1` and `SEED_PASSWORD` and is disabled in production.
 
-The optional development seed is additive and requires `ALLOW_DEVELOPMENT_SEED=1` plus `SEED_PASSWORD`. It is disabled in production. The old destructive SQL seed and obsolete Railway instructions have been removed.
+[Environment variables](ENV_SETUP.md) · [Deployment and rollback](docs/overhaul/deployment.md)
 
 ## Verify
 
@@ -58,23 +68,19 @@ The optional development seed is additive and requires `ALLOW_DEVELOPMENT_SEED=1
 npm run lint --prefix frontend
 npm run build --prefix frontend
 npm run build --prefix backend
-$env:RUN_DB_TESTS='1'
 npm test --prefix backend
-npm audit --prefix frontend
-npm audit --prefix backend
 ```
 
-The database tests use exact, synthetic fixture IDs and clean those fixtures up. Use a dedicated development database for routine testing. Without `RUN_DB_TESTS=1`, database tests are explicitly skipped.
+Database tests skip unless `RUN_DB_TESTS=1` is explicitly set. Enable that flag only with a dedicated development database: those tests create and clean synthetic fixtures. [Existing verification evidence](docs/overhaul/verification.md) records the earlier lifecycle, tenant, concurrency, browser, and deployment checks.
 
-[Verification evidence](docs/overhaul/verification.md) records lifecycle, tenant, concurrency, browser, accessibility and deployment checks. The browser accessibility dependency is development-only and is not included in the application bundle.
+## Contribution and limits
 
-## Research and design
+I hand-coded the original. In v2 I used AI for frontend redesign and deployment. In v3 I used AI for redesign, development, and deployment, with user research informing feature selection. I review missing features, expected outputs, and behavior.
 
-- [Researched features and workflows](docs/overhaul/research.md), based on official Snipe-IT, Sortly, EZO and Smartsheet sources.
-- [Visual specification and Sauron design-engineering gates](docs/overhaul/design.md).
-- [Architecture and API contract](docs/overhaul/architecture.md).
-- [Dark theme screenshot](docs/overhaul/screenshots/dashboard-dark.png).
+This is portfolio software. Invitations are shareable links; no email is delivered. Billing, SSO/SCIM, procurement automation, hardware discovery, and external integrations are outside scope. Reports use saved records rather than invented historical estimates.
 
-Sauron supplied the project adapter and workflow/design guidance. The actual CLI was used for initialization and skill registration. Generated runtime adapters and Fellowship persona names are not evidence that those runtimes ran. Implementation workers and the parent performed the documented checks.
+[Feature research](docs/overhaul/research.md) · [Architecture](docs/overhaul/architecture.md) · [Dark screenshot](docs/overhaul/screenshots/dashboard-dark.png)
 
-This is an educational portfolio application. Email delivery, billing, SSO/SCIM, procurement automation, hardware discovery and external integrations are outside its scope. Invitations provide shareable links; no email is sent. Reports use current saved records, without invented historical estimates.
+---
+
+[More projects](https://github.com/vmargin) · [Portfolio](https://vmargin.github.io/) · [LinkedIn](https://www.linkedin.com/in/vmargin/)
