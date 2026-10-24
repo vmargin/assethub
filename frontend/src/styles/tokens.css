@@ -1,0 +1,25 @@
+:root {
+  --font-meta: 0.8125rem;
+  --font-label: 0.875rem;
+  --font-body: 1rem;
+  --font-lead: 1.125rem;
+  --font-heading: 1.5rem;
+  --font-title: 2rem;
+  --font-metric: 2.25rem;
+  --font-display: clamp(2.375rem, 5vw, 3.875rem);
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-24: 96px;
+  --radius-control: 6px;
+  --radius-surface: 9px;
+  --duration-feedback: 160ms;
+  --duration-overlay: 220ms;
+}

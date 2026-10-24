@@ -9,6 +9,7 @@ import {
   PersonAvatar,
 } from "../components/UI.jsx";
 import { dateLabel, titleCase } from "../lib/format.js";
+import "./Dashboard.css";
 
 function Metric({ icon, label, value, note, tone }) {
   return (
@@ -93,26 +94,19 @@ export default function Dashboard({ workspace, navigate }) {
         ? "Good afternoon"
         : "Good evening";
   return (
-    <>
+    <div className="dashboard-page">
       <PageHeading
         eyebrow={new Intl.DateTimeFormat(undefined, {
           weekday: "long",
           month: "long",
           day: "numeric",
-        })
-          .format(new Date())
-          .toUpperCase()}
+        }).format(new Date())}
         title={`${greeting}, ${workspace.currentUser?.name?.split(" ")[0] || "there"}.`}
         description={`Here’s what’s happening in ${organization.name || "your workspace"}.`}
         actions={
-          <select
-            aria-label="Dashboard date range"
-            value="all"
-            disabled
-            title="Workspace totals reflect all saved records"
-          >
-            <option value="all">Current snapshot</option>
-          </select>
+          <span className="dashboard-snapshot" title="Totals reflect all saved records">
+            <Icon name="calendar" size={16} /> Current snapshot
+          </span>
         }
       />
       <div className="metric-grid">
@@ -397,7 +391,7 @@ export default function Dashboard({ workspace, navigate }) {
           )}
         </Panel>
       </div>
-    </>
+    </div>
   );
 }
 function activityIcon(action = "") {

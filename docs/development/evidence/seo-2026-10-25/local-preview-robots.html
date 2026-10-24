@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f4f3ee" />
+    <meta
+      name="description"
+      content="Sign in to ERL AssetHub to manage your organization’s equipment, people and asset history. Open an isolated demo workspace with fictional sample data."
+    />
+    <link rel="icon" type="image/svg+xml" href="/assethub.svg" />
+    <script>
+      try {
+        const preference = localStorage.getItem("assethub.theme") || "light";
+        const dark =
+          preference === "dark" ||
+          (preference === "system" &&
+            matchMedia("(prefers-color-scheme: dark)").matches);
+        document.documentElement.dataset.theme = dark ? "dark" : "light";
+      } catch {
+        document.documentElement.dataset.theme = "light";
+      }
+    </script>
+    <title>ERL AssetHub · Workspace access</title>
+    <script type="module" crossorigin src="/assets/index-Dm6Fk97N.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-B-oeYIpd.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

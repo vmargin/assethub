@@ -1,0 +1,1037 @@
+{
+  "startedAt": "2026-10-24T18:39:12.229Z",
+  "auditDate": "2026-10-25",
+  "timezone": "Asia/Manila",
+  "http": [
+    {
+      "environment": "production",
+      "label": "home",
+      "requestedUrl": "https://erlassethub.vercel.app/",
+      "finalUrl": "https://erlassethub.vercel.app/",
+      "chain": [
+        {
+          "url": "https://erlassethub.vercel.app/",
+          "status": 200,
+          "headers": {
+            "content-type": "text/html; charset=utf-8",
+            "cache-control": "public, max-age=0, must-revalidate",
+            "server": "Vercel",
+            "x-vercel-cache": "HIT"
+          }
+        }
+      ],
+      "bodyFile": "production-home.html",
+      "title": "ERL AssetHub · Workspace access",
+      "language": "en",
+      "metadata": [
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+        "<meta\r\n      name=\"description\"\r\n      content=\"Sign in to ERL AssetHub to manage your organization’s equipment, people and asset history. Open an isolated demo workspace with fictional sample data.\"\r\n    />"
+      ],
+      "headings": [],
+      "jsonLdCount": 0,
+      "emptyRoot": true,
+      "characters": 1202
+    },
+    {
+      "environment": "production",
+      "label": "tracking-query",
+      "requestedUrl": "https://erlassethub.vercel.app/?utm_source=seo-audit",
+      "finalUrl": "https://erlassethub.vercel.app/?utm_source=seo-audit",
+      "chain": [
+        {
+          "url": "https://erlassethub.vercel.app/?utm_source=seo-audit",
+          "status": 200,
+          "headers": {
+            "content-type": "text/html; charset=utf-8",
+            "cache-control": "public, max-age=0, must-revalidate",
+            "server": "Vercel",
+            "x-vercel-cache": "HIT"
+          }
+        }
+      ],
+      "bodyFile": "production-tracking-query.html",
+      "title": "ERL AssetHub · Workspace access",
+      "language": "en",
+      "metadata": [
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+        "<meta\r\n      name=\"description\"\r\n      content=\"Sign in to ERL AssetHub to manage your organization’s equipment, people and asset history. Open an isolated demo workspace with fictional sample data.\"\r\n    />"
+      ],
+      "headings": [],
+      "jsonLdCount": 0,
+      "emptyRoot": true,
+      "characters": 1202
+    },
+    {
+      "environment": "production",
+      "label": "invitation",
+      "requestedUrl": "https://erlassethub.vercel.app/?invite=seo-audit-invalid-token",
+      "finalUrl": "https://erlassethub.vercel.app/?invite=seo-audit-invalid-token",
+      "chain": [
+        {
+          "url": "https://erlassethub.vercel.app/?invite=seo-audit-invalid-token",
+          "status": 200,
+          "headers": {
+            "content-type": "text/html; charset=utf-8",
+            "cache-control": "public, max-age=0, must-revalidate",
+            "server": "Vercel",
+            "x-vercel-cache": "HIT"
+          }
+        }
+      ],
+      "bodyFile": "production-invitation.html",
+      "title": "ERL AssetHub · Workspace access",
+      "language": "en",
+      "metadata": [
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+        "<meta\r\n      name=\"description\"\r\n      content=\"Sign in to ERL AssetHub to manage your organization’s equipment, people and asset history. Open an isolated demo workspace with fictional sample data.\"\r\n    />"
+      ],
+      "headings": [],
+      "jsonLdCount": 0,
+      "emptyRoot": true,
+      "characters": 1202
+    },
+    {
+      "environment": "production",
+      "label": "unknown",
+      "requestedUrl": "https://erlassethub.vercel.app/seo-audit-missing-20261025",
+      "finalUrl": "https://erlassethub.vercel.app/seo-audit-missing-20261025",
+      "chain": [
+        {
+          "url": "https://erlassethub.vercel.app/seo-audit-missing-20261025",
+          "status": 200,
+          "headers": {
+            "content-type": "text/html; charset=utf-8",
+            "cache-control": "public, max-age=0, must-revalidate",
+            "server": "Vercel",
+            "x-vercel-cache": "MISS"
+          }
+        }
+      ],
+      "bodyFile": "production-unknown.html",
+      "title": "ERL AssetHub · Workspace access",
+      "language": "en",
+      "metadata": [
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+        "<meta\r\n      name=\"description\"\r\n      content=\"Sign in to ERL AssetHub to manage your organization’s equipment, people and asset history. Open an isolated demo workspace with fictional sample data.\"\r\n    />"
+      ],
+      "headings": [],
+      "jsonLdCount": 0,
+      "emptyRoot": true,
+      "characters": 1202
+    },
+    {
+      "environment": "production",
+      "label": "sitemap",
+      "requestedUrl": "https://erlassethub.vercel.app/sitemap.xml",
+      "finalUrl": "https://erlassethub.vercel.app/sitemap.xml",
+      "chain": [
+        {
+          "url": "https://erlassethub.vercel.app/sitemap.xml",
+          "status": 200,
+          "headers": {
+            "content-type": "text/html; charset=utf-8",
+            "cache-control": "public, max-age=0, must-revalidate",
+            "server": "Vercel",
+            "x-vercel-cache": "HIT"
+          }
+        }
+      ],
+      "bodyFile": "production-sitemap.html",
+      "title": "ERL AssetHub · Workspace access",
+      "language": "en",
+      "metadata": [
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+        "<meta\r\n      name=\"description\"\r\n      content=\"Sign in to ERL AssetHub to manage your organization’s equipment, people and asset history. Open an isolated demo workspace with fictional sample data.\"\r\n    />"
+      ],
+      "headings": [],
+      "jsonLdCount": 0,
+      "emptyRoot": true,
+      "characters": 1202
+    },
+    {
+      "environment": "production",
+      "label": "path-assets",
+      "requestedUrl": "https://erlassethub.vercel.app/assets",
+      "finalUrl": "https://erlassethub.vercel.app/assets",
+      "chain": [
+        {
+          "url": "https://erlassethub.vercel.app/assets",
+          "status": 200,
+          "headers": {
+            "content-type": "text/html; charset=utf-8",
+            "cache-control": "public, max-age=0, must-revalidate",
+            "server": "Vercel",
+            "x-vercel-cache": "HIT"
+          }
+        }
+      ],
+      "bodyFile": "production-path-assets.html",
+      "title": "ERL AssetHub · Workspace access",
+      "language": "en",
+      "metadata": [
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+        "<meta\r\n      name=\"description\"\r\n      content=\"Sign in to ERL AssetHub to manage your organization’s equipment, people and asset history. Open an isolated demo workspace with fictional sample data.\"\r\n    />"
+      ],
+      "headings": [],
+      "jsonLdCount": 0,
+      "emptyRoot": true,
+      "characters": 1202
+    },
+    {
+      "environment": "production",
+      "label": "robots",
+      "requestedUrl": "https://erlassethub.vercel.app/robots.txt",
+      "finalUrl": "https://erlassethub.vercel.app/robots.txt",
+      "chain": [
+        {
+          "url": "https://erlassethub.vercel.app/robots.txt",
+          "status": 200,
+          "headers": {
+            "content-type": "text/html; charset=utf-8",
+            "cache-control": "public, max-age=0, must-revalidate",
+            "server": "Vercel",
+            "x-vercel-cache": "HIT"
+          }
+        }
+      ],
+      "bodyFile": "production-robots.html",
+      "title": "ERL AssetHub · Workspace access",
+      "language": "en",
+      "metadata": [
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+        "<meta\r\n      name=\"description\"\r\n      content=\"Sign in to ERL AssetHub to manage your organization’s equipment, people and asset history. Open an isolated demo workspace with fictional sample data.\"\r\n    />"
+      ],
+      "headings": [],
+      "jsonLdCount": 0,
+      "emptyRoot": true,
+      "characters": 1202
+    },
+    {
+      "environment": "production",
+      "label": "api-health",
+      "requestedUrl": "https://erlassethub.vercel.app/api/health",
+      "finalUrl": "https://erlassethub.vercel.app/api/health",
+      "chain": [
+        {
+          "url": "https://erlassethub.vercel.app/api/health",
+          "status": 200,
+          "headers": {
+            "content-type": "application/json; charset=utf-8",
+            "cache-control": "public, max-age=0, must-revalidate",
+            "vary": "Origin",
+            "server": "Vercel",
+            "x-vercel-cache": "MISS"
+          }
+        }
+      ],
+      "bodyFile": "production-api-health.txt",
+      "bodyPreview": "{\"status\":\"ok\"}"
+    },
+    {
+      "environment": "production",
+      "label": "api-label",
+      "requestedUrl": "https://erlassethub.vercel.app/api/assets/seo-audit-missing/label",
+      "finalUrl": "https://erlassethub.vercel.app/api/assets/seo-audit-missing/label",
+      "chain": [
+        {
+          "url": "https://erlassethub.vercel.app/api/assets/seo-audit-missing/label",
+          "status": 401,
+          "headers": {
+            "content-type": "application/json; charset=utf-8",
+            "cache-control": "public, max-age=0, must-revalidate",
+            "vary": "Origin",
+            "server": "Vercel",
+            "x-vercel-cache": "MISS"
+          }
+        }
+      ],
+      "bodyFile": "production-api-label.txt",
+      "bodyPreview": "{\"error\":\"Authentication required\"}"
+    },
+    {
+      "environment": "production",
+      "label": "api-workspace",
+      "requestedUrl": "https://erlassethub.vercel.app/api/workspace",
+      "finalUrl": "https://erlassethub.vercel.app/api/workspace",
+      "chain": [
+        {
+          "url": "https://erlassethub.vercel.app/api/workspace",
+          "status": 401,
+          "headers": {
+            "content-type": "application/json; charset=utf-8",
+            "cache-control": "public, max-age=0, must-revalidate",
+            "vary": "Origin",
+            "server": "Vercel",
+            "x-vercel-cache": "MISS"
+          }
+        }
+      ],
+      "bodyFile": "production-api-workspace.txt",
+      "bodyPreview": "{\"error\":\"Authentication required\"}"
+    },
+    {
+      "environment": "production",
+      "label": "api-me",
+      "requestedUrl": "https://erlassethub.vercel.app/api/auth/me",
+      "finalUrl": "https://erlassethub.vercel.app/api/auth/me",
+      "chain": [
+        {
+          "url": "https://erlassethub.vercel.app/api/auth/me",
+          "status": 401,
+          "headers": {
+            "content-type": "application/json; charset=utf-8",
+            "cache-control": "public, max-age=0, must-revalidate",
+            "vary": "Origin",
+            "server": "Vercel",
+            "x-vercel-cache": "MISS"
+          }
+        }
+      ],
+      "bodyFile": "production-api-me.txt",
+      "bodyPreview": "{\"error\":\"Authentication required\"}"
+    },
+    {
+      "environment": "production",
+      "label": "http-origin",
+      "requestedUrl": "http://erlassethub.vercel.app/",
+      "chain": [
+        {
+          "url": "http://erlassethub.vercel.app/",
+          "status": 302,
+          "headers": {
+            "location": "http://ra-ph.convergeict.com/?dpid=6&dpruleid=1&cat=10001&dplanguage=-&url=http%3a%2f%2f216%2e198%2e79%2e67%2f",
+            "cache-control": "no-cache"
+          }
+        }
+      ],
+      "error": "fetch failed"
+    },
+    {
+      "environment": "local-preview",
+      "label": "home",
+      "requestedUrl": "http://127.0.0.1:50584/",
+      "finalUrl": "http://127.0.0.1:50584/",
+      "chain": [
+        {
+          "url": "http://127.0.0.1:50584/",
+          "status": 200,
+          "headers": {
+            "content-type": "text/html",
+            "cache-control": "no-cache",
+            "vary": "Origin"
+          }
+        }
+      ],
+      "bodyFile": "local-preview-home.html",
+      "title": "ERL AssetHub · Workspace access",
+      "language": "en",
+      "metadata": [
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+        "<meta\r\n      name=\"description\"\r\n      content=\"Sign in to ERL AssetHub to manage your organization’s equipment, people and asset history. Open an isolated demo workspace with fictional sample data.\"\r\n    />"
+      ],
+      "headings": [],
+      "jsonLdCount": 0,
+      "emptyRoot": true,
+      "characters": 1202
+    },
+    {
+      "environment": "local-preview",
+      "label": "tracking-query",
+      "requestedUrl": "http://127.0.0.1:50584/?utm_source=seo-audit",
+      "finalUrl": "http://127.0.0.1:50584/?utm_source=seo-audit",
+      "chain": [
+        {
+          "url": "http://127.0.0.1:50584/?utm_source=seo-audit",
+          "status": 200,
+          "headers": {
+            "content-type": "text/html",
+            "cache-control": "no-cache",
+            "vary": "Origin"
+          }
+        }
+      ],
+      "bodyFile": "local-preview-tracking-query.html",
+      "title": "ERL AssetHub · Workspace access",
+      "language": "en",
+      "metadata": [
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+        "<meta\r\n      name=\"description\"\r\n      content=\"Sign in to ERL AssetHub to manage your organization’s equipment, people and asset history. Open an isolated demo workspace with fictional sample data.\"\r\n    />"
+      ],
+      "headings": [],
+      "jsonLdCount": 0,
+      "emptyRoot": true,
+      "characters": 1202
+    },
+    {
+      "environment": "local-preview",
+      "label": "invitation",
+      "requestedUrl": "http://127.0.0.1:50584/?invite=seo-audit-invalid-token",
+      "finalUrl": "http://127.0.0.1:50584/?invite=seo-audit-invalid-token",
+      "chain": [
+        {
+          "url": "http://127.0.0.1:50584/?invite=seo-audit-invalid-token",
+          "status": 200,
+          "headers": {
+            "content-type": "text/html",
+            "cache-control": "no-cache",
+            "vary": "Origin"
+          }
+        }
+      ],
+      "bodyFile": "local-preview-invitation.html",
+      "title": "ERL AssetHub · Workspace access",
+      "language": "en",
+      "metadata": [
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+        "<meta\r\n      name=\"description\"\r\n      content=\"Sign in to ERL AssetHub to manage your organization’s equipment, people and asset history. Open an isolated demo workspace with fictional sample data.\"\r\n    />"
+      ],
+      "headings": [],
+      "jsonLdCount": 0,
+      "emptyRoot": true,
+      "characters": 1202
+    },
+    {
+      "environment": "local-preview",
+      "label": "unknown",
+      "requestedUrl": "http://127.0.0.1:50584/seo-audit-missing-20261025",
+      "finalUrl": "http://127.0.0.1:50584/seo-audit-missing-20261025",
+      "chain": [
+        {
+          "url": "http://127.0.0.1:50584/seo-audit-missing-20261025",
+          "status": 200,
+          "headers": {
+            "content-type": "text/html",
+            "cache-control": "no-cache",
+            "vary": "Origin"
+          }
+        }
+      ],
+      "bodyFile": "local-preview-unknown.html",
+      "title": "ERL AssetHub · Workspace access",
+      "language": "en",
+      "metadata": [
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+        "<meta\r\n      name=\"description\"\r\n      content=\"Sign in to ERL AssetHub to manage your organization’s equipment, people and asset history. Open an isolated demo workspace with fictional sample data.\"\r\n    />"
+      ],
+      "headings": [],
+      "jsonLdCount": 0,
+      "emptyRoot": true,
+      "characters": 1202
+    },
+    {
+      "environment": "local-preview",
+      "label": "path-assets",
+      "requestedUrl": "http://127.0.0.1:50584/assets",
+      "finalUrl": "http://127.0.0.1:50584/assets",
+      "chain": [
+        {
+          "url": "http://127.0.0.1:50584/assets",
+          "status": 200,
+          "headers": {
+            "content-type": "text/html",
+            "cache-control": "no-cache",
+            "vary": "Origin"
+          }
+        }
+      ],
+      "bodyFile": "local-preview-path-assets.html",
+      "title": "ERL AssetHub · Workspace access",
+      "language": "en",
+      "metadata": [
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+        "<meta\r\n      name=\"description\"\r\n      content=\"Sign in to ERL AssetHub to manage your organization’s equipment, people and asset history. Open an isolated demo workspace with fictional sample data.\"\r\n    />"
+      ],
+      "headings": [],
+      "jsonLdCount": 0,
+      "emptyRoot": true,
+      "characters": 1202
+    },
+    {
+      "environment": "local-preview",
+      "label": "robots",
+      "requestedUrl": "http://127.0.0.1:50584/robots.txt",
+      "finalUrl": "http://127.0.0.1:50584/robots.txt",
+      "chain": [
+        {
+          "url": "http://127.0.0.1:50584/robots.txt",
+          "status": 200,
+          "headers": {
+            "content-type": "text/html",
+            "cache-control": "no-cache",
+            "vary": "Origin"
+          }
+        }
+      ],
+      "bodyFile": "local-preview-robots.html",
+      "title": "ERL AssetHub · Workspace access",
+      "language": "en",
+      "metadata": [
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+        "<meta\r\n      name=\"description\"\r\n      content=\"Sign in to ERL AssetHub to manage your organization’s equipment, people and asset history. Open an isolated demo workspace with fictional sample data.\"\r\n    />"
+      ],
+      "headings": [],
+      "jsonLdCount": 0,
+      "emptyRoot": true,
+      "characters": 1202
+    },
+    {
+      "environment": "local-preview",
+      "label": "sitemap",
+      "requestedUrl": "http://127.0.0.1:50584/sitemap.xml",
+      "finalUrl": "http://127.0.0.1:50584/sitemap.xml",
+      "chain": [
+        {
+          "url": "http://127.0.0.1:50584/sitemap.xml",
+          "status": 200,
+          "headers": {
+            "content-type": "text/html",
+            "cache-control": "no-cache",
+            "vary": "Origin"
+          }
+        }
+      ],
+      "bodyFile": "local-preview-sitemap.html",
+      "title": "ERL AssetHub · Workspace access",
+      "language": "en",
+      "metadata": [
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+        "<meta\r\n      name=\"description\"\r\n      content=\"Sign in to ERL AssetHub to manage your organization’s equipment, people and asset history. Open an isolated demo workspace with fictional sample data.\"\r\n    />"
+      ],
+      "headings": [],
+      "jsonLdCount": 0,
+      "emptyRoot": true,
+      "characters": 1202
+    }
+  ],
+  "browser": [
+    {
+      "environment": "local-preview",
+      "label": "home",
+      "width": 1440,
+      "status": 200,
+      "initialTitle": "ERL AssetHub · Workspace access",
+      "errors": [],
+      "url": "http://127.0.0.1:50584/",
+      "title": "ERL AssetHub · Workspace access",
+      "language": "en",
+      "metadata": [
+        "<meta charset=\"UTF-8\">",
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+        "<meta name=\"theme-color\" content=\"#f4f3ee\">",
+        "<meta name=\"description\" content=\"Sign in to ERL AssetHub to manage your organization’s equipment, people and asset history. Open an isolated demo workspace with fictional sample data.\">"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Every asset.In good hands."
+        },
+        {
+          "tag": "H2",
+          "text": "Welcome back"
+        },
+        {
+          "tag": "H3",
+          "text": "Explore a sample workspace"
+        }
+      ],
+      "links": [
+        {
+          "text": "ERL AssetHubWorkspace access",
+          "name": "ERL AssetHub home",
+          "href": "/"
+        }
+      ],
+      "images": [],
+      "jsonLd": [],
+      "buttons": [
+        "",
+        "Show",
+        "Sign in",
+        "Fill demo credentials",
+        "Create an account"
+      ],
+      "visibleText": "ERL AssetHub\nWorkspace access\nEvery asset.\nIn good hands.\n\nKeep inventory, people, and asset history together across your workspaces.\n\nAsset lifecycle\nAvailable\nAssigned\nIn service\n\nPrivate workspaces. Each team sees only the records it belongs to.\n\nWelcome back\n\nSign in to continue to your team’s assets and activity.\n\nWork email or demo username *\n\nUse your work email or the demo username below.\n\nPassword *\nShow\n\nForgot your password? Contact your workspace administrator for help.\n\nSign in\nExplore a sample workspace\nUsername\ndemo@assethub.test\nPassword\nAssetHubDemo!\nFill demo credentials\n\nFictional records in an isolated workspace. Demo access expires after 24 hours.\n\nNew to ERL AssetHub? Create an account\n© 2026 ERL AssetHub\nPrivate workspaces · Clear asset histories",
+      "clientNavigation": {
+        "url": "http://127.0.0.1:50584/#dashboard",
+        "title": "ERL AssetHub · Workspace access",
+        "h1": "Every asset.In good hands.",
+        "hasSignIn": true
+      }
+    },
+    {
+      "environment": "local-preview",
+      "label": "home-mobile",
+      "width": 375,
+      "status": 200,
+      "initialTitle": "ERL AssetHub · Workspace access",
+      "errors": [],
+      "url": "http://127.0.0.1:50584/",
+      "title": "ERL AssetHub · Workspace access",
+      "language": "en",
+      "metadata": [
+        "<meta charset=\"UTF-8\">",
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+        "<meta name=\"theme-color\" content=\"#f4f3ee\">",
+        "<meta name=\"description\" content=\"Sign in to ERL AssetHub to manage your organization’s equipment, people and asset history. Open an isolated demo workspace with fictional sample data.\">"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Every asset.In good hands."
+        },
+        {
+          "tag": "H2",
+          "text": "Welcome back"
+        },
+        {
+          "tag": "H3",
+          "text": "Explore a sample workspace"
+        }
+      ],
+      "links": [
+        {
+          "text": "ERL AssetHubWorkspace access",
+          "name": "ERL AssetHub home",
+          "href": "/"
+        }
+      ],
+      "images": [],
+      "jsonLd": [],
+      "buttons": [
+        "",
+        "Show",
+        "Sign in",
+        "Fill demo credentials",
+        "Create an account"
+      ],
+      "visibleText": "ERL AssetHub\nEvery asset.\nIn good hands.\n\nKeep inventory, people, and asset history together across your workspaces.\n\nAsset lifecycle\nAvailable\nAssigned\nIn service\n\nPrivate workspaces. Each team sees only the records it belongs to.\n\nWelcome back\n\nSign in to continue to your team’s assets and activity.\n\nWork email or demo username *\n\nUse your work email or the demo username below.\n\nPassword *\nShow\n\nForgot your password? Contact your workspace administrator for help.\n\nSign in\nExplore a sample workspace\nUsername\ndemo@assethub.test\nPassword\nAssetHubDemo!\nFill demo credentials\n\nFictional records in an isolated workspace. Demo access expires after 24 hours.\n\nNew to ERL AssetHub? Create an account\n© 2026 ERL AssetHub\nPrivate workspaces · Clear asset histories"
+    },
+    {
+      "environment": "local-preview",
+      "label": "private-dashboard",
+      "width": 1440,
+      "status": 200,
+      "initialTitle": "ERL AssetHub · Workspace access",
+      "errors": [],
+      "url": "http://127.0.0.1:50584/#dashboard",
+      "title": "ERL AssetHub · Workspace access",
+      "language": "en",
+      "metadata": [
+        "<meta charset=\"UTF-8\">",
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+        "<meta name=\"theme-color\" content=\"#f4f3ee\">",
+        "<meta name=\"description\" content=\"Sign in to ERL AssetHub to manage your organization’s equipment, people and asset history. Open an isolated demo workspace with fictional sample data.\">"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Every asset.In good hands."
+        },
+        {
+          "tag": "H2",
+          "text": "Welcome back"
+        },
+        {
+          "tag": "H3",
+          "text": "Explore a sample workspace"
+        }
+      ],
+      "links": [
+        {
+          "text": "ERL AssetHubWorkspace access",
+          "name": "ERL AssetHub home",
+          "href": "/"
+        }
+      ],
+      "images": [],
+      "jsonLd": [],
+      "buttons": [
+        "",
+        "Show",
+        "Sign in",
+        "Fill demo credentials",
+        "Create an account"
+      ],
+      "visibleText": "ERL AssetHub\nWorkspace access\nEvery asset.\nIn good hands.\n\nKeep inventory, people, and asset history together across your workspaces.\n\nAsset lifecycle\nAvailable\nAssigned\nIn service\n\nPrivate workspaces. Each team sees only the records it belongs to.\n\nWelcome back\n\nSign in to continue to your team’s assets and activity.\n\nWork email or demo username *\n\nUse your work email or the demo username below.\n\nPassword *\nShow\n\nForgot your password? Contact your workspace administrator for help.\n\nSign in\nExplore a sample workspace\nUsername\ndemo@assethub.test\nPassword\nAssetHubDemo!\nFill demo credentials\n\nFictional records in an isolated workspace. Demo access expires after 24 hours.\n\nNew to ERL AssetHub? Create an account\n© 2026 ERL AssetHub\nPrivate workspaces · Clear asset histories"
+    },
+    {
+      "environment": "local-preview",
+      "label": "private-detail",
+      "width": 1440,
+      "status": 200,
+      "initialTitle": "ERL AssetHub · Workspace access",
+      "errors": [],
+      "url": "http://127.0.0.1:50584/#assets/seo-audit-missing",
+      "title": "ERL AssetHub · Workspace access",
+      "language": "en",
+      "metadata": [
+        "<meta charset=\"UTF-8\">",
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+        "<meta name=\"theme-color\" content=\"#f4f3ee\">",
+        "<meta name=\"description\" content=\"Sign in to ERL AssetHub to manage your organization’s equipment, people and asset history. Open an isolated demo workspace with fictional sample data.\">"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Every asset.In good hands."
+        },
+        {
+          "tag": "H2",
+          "text": "Welcome back"
+        },
+        {
+          "tag": "H3",
+          "text": "Explore a sample workspace"
+        }
+      ],
+      "links": [
+        {
+          "text": "ERL AssetHubWorkspace access",
+          "name": "ERL AssetHub home",
+          "href": "/"
+        }
+      ],
+      "images": [],
+      "jsonLd": [],
+      "buttons": [
+        "",
+        "Show",
+        "Sign in",
+        "Fill demo credentials",
+        "Create an account"
+      ],
+      "visibleText": "ERL AssetHub\nWorkspace access\nEvery asset.\nIn good hands.\n\nKeep inventory, people, and asset history together across your workspaces.\n\nAsset lifecycle\nAvailable\nAssigned\nIn service\n\nPrivate workspaces. Each team sees only the records it belongs to.\n\nWelcome back\n\nSign in to continue to your team’s assets and activity.\n\nWork email or demo username *\n\nUse your work email or the demo username below.\n\nPassword *\nShow\n\nForgot your password? Contact your workspace administrator for help.\n\nSign in\nExplore a sample workspace\nUsername\ndemo@assethub.test\nPassword\nAssetHubDemo!\nFill demo credentials\n\nFictional records in an isolated workspace. Demo access expires after 24 hours.\n\nNew to ERL AssetHub? Create an account\n© 2026 ERL AssetHub\nPrivate workspaces · Clear asset histories"
+    },
+    {
+      "environment": "local-preview",
+      "label": "unknown-hash",
+      "width": 1440,
+      "status": 200,
+      "initialTitle": "ERL AssetHub · Workspace access",
+      "errors": [],
+      "url": "http://127.0.0.1:50584/#seo-audit-missing",
+      "title": "ERL AssetHub · Workspace access",
+      "language": "en",
+      "metadata": [
+        "<meta charset=\"UTF-8\">",
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+        "<meta name=\"theme-color\" content=\"#f4f3ee\">",
+        "<meta name=\"description\" content=\"Sign in to ERL AssetHub to manage your organization’s equipment, people and asset history. Open an isolated demo workspace with fictional sample data.\">"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Every asset.In good hands."
+        },
+        {
+          "tag": "H2",
+          "text": "Welcome back"
+        },
+        {
+          "tag": "H3",
+          "text": "Explore a sample workspace"
+        }
+      ],
+      "links": [
+        {
+          "text": "ERL AssetHubWorkspace access",
+          "name": "ERL AssetHub home",
+          "href": "/"
+        }
+      ],
+      "images": [],
+      "jsonLd": [],
+      "buttons": [
+        "",
+        "Show",
+        "Sign in",
+        "Fill demo credentials",
+        "Create an account"
+      ],
+      "visibleText": "ERL AssetHub\nWorkspace access\nEvery asset.\nIn good hands.\n\nKeep inventory, people, and asset history together across your workspaces.\n\nAsset lifecycle\nAvailable\nAssigned\nIn service\n\nPrivate workspaces. Each team sees only the records it belongs to.\n\nWelcome back\n\nSign in to continue to your team’s assets and activity.\n\nWork email or demo username *\n\nUse your work email or the demo username below.\n\nPassword *\nShow\n\nForgot your password? Contact your workspace administrator for help.\n\nSign in\nExplore a sample workspace\nUsername\ndemo@assethub.test\nPassword\nAssetHubDemo!\nFill demo credentials\n\nFictional records in an isolated workspace. Demo access expires after 24 hours.\n\nNew to ERL AssetHub? Create an account\n© 2026 ERL AssetHub\nPrivate workspaces · Clear asset histories"
+    },
+    {
+      "environment": "local-preview",
+      "label": "invitation",
+      "width": 1440,
+      "status": 200,
+      "initialTitle": "ERL AssetHub · Workspace access",
+      "errors": [],
+      "url": "http://127.0.0.1:50584/?invite=seo-audit-invalid-token",
+      "title": "ERL AssetHub · Workspace access",
+      "language": "en",
+      "metadata": [
+        "<meta charset=\"UTF-8\">",
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+        "<meta name=\"theme-color\" content=\"#f4f3ee\">",
+        "<meta name=\"description\" content=\"Sign in to ERL AssetHub to manage your organization’s equipment, people and asset history. Open an isolated demo workspace with fictional sample data.\">"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Every asset.In good hands."
+        },
+        {
+          "tag": "H2",
+          "text": "Join your team"
+        }
+      ],
+      "links": [
+        {
+          "text": "ERL AssetHubWorkspace access",
+          "name": "ERL AssetHub home",
+          "href": "/"
+        }
+      ],
+      "images": [],
+      "jsonLd": [],
+      "buttons": [
+        "",
+        "Show",
+        "Accept invitation"
+      ],
+      "visibleText": "ERL AssetHub\nWorkspace access\nEvery asset.\nIn good hands.\n\nKeep inventory, people, and asset history together across your workspaces.\n\nAsset lifecycle\nAvailable\nAssigned\nIn service\n\nPrivate workspaces. Each team sees only the records it belongs to.\n\nJoin your team\n\nSet up your account to accept this team invitation.\n\nIf you already have an ERL AssetHub account, use your current password to accept this invitation.\nYour name *\nPassword *\nShow\n\nUse your current password if you already have an account.\n\nAccept invitation\n© 2026 ERL AssetHub\nPrivate workspaces · Clear asset histories"
+    },
+    {
+      "environment": "local-preview",
+      "label": "unknown-path",
+      "width": 1440,
+      "status": 200,
+      "initialTitle": "ERL AssetHub · Workspace access",
+      "errors": [],
+      "url": "http://127.0.0.1:50584/seo-audit-missing-20261025",
+      "title": "ERL AssetHub · Workspace access",
+      "language": "en",
+      "metadata": [
+        "<meta charset=\"UTF-8\">",
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+        "<meta name=\"theme-color\" content=\"#f4f3ee\">",
+        "<meta name=\"description\" content=\"Sign in to ERL AssetHub to manage your organization’s equipment, people and asset history. Open an isolated demo workspace with fictional sample data.\">"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Every asset.In good hands."
+        },
+        {
+          "tag": "H2",
+          "text": "Welcome back"
+        },
+        {
+          "tag": "H3",
+          "text": "Explore a sample workspace"
+        }
+      ],
+      "links": [
+        {
+          "text": "ERL AssetHubWorkspace access",
+          "name": "ERL AssetHub home",
+          "href": "/"
+        }
+      ],
+      "images": [],
+      "jsonLd": [],
+      "buttons": [
+        "",
+        "Show",
+        "Sign in",
+        "Fill demo credentials",
+        "Create an account"
+      ],
+      "visibleText": "ERL AssetHub\nWorkspace access\nEvery asset.\nIn good hands.\n\nKeep inventory, people, and asset history together across your workspaces.\n\nAsset lifecycle\nAvailable\nAssigned\nIn service\n\nPrivate workspaces. Each team sees only the records it belongs to.\n\nWelcome back\n\nSign in to continue to your team’s assets and activity.\n\nWork email or demo username *\n\nUse your work email or the demo username below.\n\nPassword *\nShow\n\nForgot your password? Contact your workspace administrator for help.\n\nSign in\nExplore a sample workspace\nUsername\ndemo@assethub.test\nPassword\nAssetHubDemo!\nFill demo credentials\n\nFictional records in an isolated workspace. Demo access expires after 24 hours.\n\nNew to ERL AssetHub? Create an account\n© 2026 ERL AssetHub\nPrivate workspaces · Clear asset histories"
+    },
+    {
+      "environment": "production",
+      "label": "home",
+      "width": 1440,
+      "status": 200,
+      "initialTitle": "ERL AssetHub · Workspace access",
+      "errors": [],
+      "url": "https://erlassethub.vercel.app/",
+      "title": "ERL AssetHub · Workspace access",
+      "language": "en",
+      "metadata": [
+        "<meta charset=\"UTF-8\">",
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+        "<meta name=\"theme-color\" content=\"#f4f3ee\">",
+        "<meta name=\"description\" content=\"Sign in to ERL AssetHub to manage your organization’s equipment, people and asset history. Open an isolated demo workspace with fictional sample data.\">"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Every asset.In good hands."
+        },
+        {
+          "tag": "H2",
+          "text": "Welcome back"
+        },
+        {
+          "tag": "H3",
+          "text": "Explore a sample workspace"
+        }
+      ],
+      "links": [
+        {
+          "text": "ERL AssetHubWorkspace access",
+          "name": "ERL AssetHub home",
+          "href": "/"
+        }
+      ],
+      "images": [],
+      "jsonLd": [],
+      "buttons": [
+        "",
+        "Show",
+        "Sign in",
+        "Fill demo credentials",
+        "Create an account"
+      ],
+      "visibleText": "ERL AssetHub\nWorkspace access\nEvery asset.\nIn good hands.\n\nKeep inventory, people, and asset history together across your workspaces.\n\nAsset lifecycle\nAvailable\nAssigned\nIn service\n\nPrivate workspaces. Each team sees only the records it belongs to.\n\nWelcome back\n\nSign in to continue to your team’s assets and activity.\n\nWork email or demo username *\n\nUse your work email or the demo username below.\n\nPassword *\nShow\n\nForgot your password? Contact your workspace administrator for help.\n\nSign in\nExplore a sample workspace\nUsername\ndemo@assethub.test\nPassword\nAssetHubDemo!\nFill demo credentials\n\nFictional records in an isolated workspace. Demo access expires after 24 hours.\n\nNew to ERL AssetHub? Create an account\n© 2026 ERL AssetHub\nPrivate workspaces · Clear asset histories",
+      "clientNavigation": {
+        "url": "https://erlassethub.vercel.app/#dashboard",
+        "title": "ERL AssetHub · Workspace access",
+        "h1": "Every asset.In good hands.",
+        "hasSignIn": true
+      }
+    },
+    {
+      "environment": "production",
+      "label": "home-mobile",
+      "width": 375,
+      "status": 200,
+      "initialTitle": "ERL AssetHub · Workspace access",
+      "errors": [],
+      "url": "https://erlassethub.vercel.app/",
+      "title": "ERL AssetHub · Workspace access",
+      "language": "en",
+      "metadata": [
+        "<meta charset=\"UTF-8\">",
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+        "<meta name=\"theme-color\" content=\"#f4f3ee\">",
+        "<meta name=\"description\" content=\"Sign in to ERL AssetHub to manage your organization’s equipment, people and asset history. Open an isolated demo workspace with fictional sample data.\">"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Every asset.In good hands."
+        },
+        {
+          "tag": "H2",
+          "text": "Welcome back"
+        },
+        {
+          "tag": "H3",
+          "text": "Explore a sample workspace"
+        }
+      ],
+      "links": [
+        {
+          "text": "ERL AssetHubWorkspace access",
+          "name": "ERL AssetHub home",
+          "href": "/"
+        }
+      ],
+      "images": [],
+      "jsonLd": [],
+      "buttons": [
+        "",
+        "Show",
+        "Sign in",
+        "Fill demo credentials",
+        "Create an account"
+      ],
+      "visibleText": "ERL AssetHub\nEvery asset.\nIn good hands.\n\nKeep inventory, people, and asset history together across your workspaces.\n\nAsset lifecycle\nAvailable\nAssigned\nIn service\n\nPrivate workspaces. Each team sees only the records it belongs to.\n\nWelcome back\n\nSign in to continue to your team’s assets and activity.\n\nWork email or demo username *\n\nUse your work email or the demo username below.\n\nPassword *\nShow\n\nForgot your password? Contact your workspace administrator for help.\n\nSign in\nExplore a sample workspace\nUsername\ndemo@assethub.test\nPassword\nAssetHubDemo!\nFill demo credentials\n\nFictional records in an isolated workspace. Demo access expires after 24 hours.\n\nNew to ERL AssetHub? Create an account\n© 2026 ERL AssetHub\nPrivate workspaces · Clear asset histories"
+    },
+    {
+      "environment": "production",
+      "label": "private-dashboard",
+      "width": 1440,
+      "status": 200,
+      "initialTitle": "ERL AssetHub · Workspace access",
+      "errors": [],
+      "url": "https://erlassethub.vercel.app/#dashboard",
+      "title": "ERL AssetHub · Workspace access",
+      "language": "en",
+      "metadata": [
+        "<meta charset=\"UTF-8\">",
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+        "<meta name=\"theme-color\" content=\"#f4f3ee\">",
+        "<meta name=\"description\" content=\"Sign in to ERL AssetHub to manage your organization’s equipment, people and asset history. Open an isolated demo workspace with fictional sample data.\">"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Every asset.In good hands."
+        },
+        {
+          "tag": "H2",
+          "text": "Welcome back"
+        },
+        {
+          "tag": "H3",
+          "text": "Explore a sample workspace"
+        }
+      ],
+      "links": [
+        {
+          "text": "ERL AssetHubWorkspace access",
+          "name": "ERL AssetHub home",
+          "href": "/"
+        }
+      ],
+      "images": [],
+      "jsonLd": [],
+      "buttons": [
+        "",
+        "Show",
+        "Sign in",
+        "Fill demo credentials",
+        "Create an account"
+      ],
+      "visibleText": "ERL AssetHub\nWorkspace access\nEvery asset.\nIn good hands.\n\nKeep inventory, people, and asset history together across your workspaces.\n\nAsset lifecycle\nAvailable\nAssigned\nIn service\n\nPrivate workspaces. Each team sees only the records it belongs to.\n\nWelcome back\n\nSign in to continue to your team’s assets and activity.\n\nWork email or demo username *\n\nUse your work email or the demo username below.\n\nPassword *\nShow\n\nForgot your password? Contact your workspace administrator for help.\n\nSign in\nExplore a sample workspace\nUsername\ndemo@assethub.test\nPassword\nAssetHubDemo!\nFill demo credentials\n\nFictional records in an isolated workspace. Demo access expires after 24 hours.\n\nNew to ERL AssetHub? Create an account\n© 2026 ERL AssetHub\nPrivate workspaces · Clear asset histories"
+    },
+    {
+      "environment": "production",
+      "label": "invitation",
+      "width": 1440,
+      "status": 200,
+      "initialTitle": "ERL AssetHub · Workspace access",
+      "errors": [],
+      "url": "https://erlassethub.vercel.app/?invite=seo-audit-invalid-token",
+      "title": "ERL AssetHub · Workspace access",
+      "language": "en",
+      "metadata": [
+        "<meta charset=\"UTF-8\">",
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+        "<meta name=\"theme-color\" content=\"#f4f3ee\">",
+        "<meta name=\"description\" content=\"Sign in to ERL AssetHub to manage your organization’s equipment, people and asset history. Open an isolated demo workspace with fictional sample data.\">"
+      ],
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Every asset.In good hands."
+        },
+        {
+          "tag": "H2",
+          "text": "Join your team"
+        }
+      ],
+      "links": [
+        {
+          "text": "ERL AssetHubWorkspace access",
+          "name": "ERL AssetHub home",
+          "href": "/"
+        }
+      ],
+      "images": [],
+      "jsonLd": [],
+      "buttons": [
+        "",
+        "Show",
+        "Accept invitation"
+      ],
+      "visibleText": "ERL AssetHub\nWorkspace access\nEvery asset.\nIn good hands.\n\nKeep inventory, people, and asset history together across your workspaces.\n\nAsset lifecycle\nAvailable\nAssigned\nIn service\n\nPrivate workspaces. Each team sees only the records it belongs to.\n\nJoin your team\n\nSet up your account to accept this team invitation.\n\nIf you already have an ERL AssetHub account, use your current password to accept this invitation.\nYour name *\nPassword *\nShow\n\nUse your current password if you already have an account.\n\nAccept invitation\n© 2026 ERL AssetHub\nPrivate workspaces · Clear asset histories"
+    }
+  ],
+  "completedAt": "2026-10-24T18:39:41.686Z"
+}

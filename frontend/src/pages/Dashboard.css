@@ -1,0 +1,194 @@
+.dashboard-page .page-heading__eyebrow {
+  font-size: var(--font-meta);
+  letter-spacing: normal;
+  text-transform: none;
+  margin-bottom: var(--space-2);
+}
+
+.dashboard-page .page-heading__description,
+.dashboard-page .metric-card__top,
+.dashboard-page .category-bar,
+.dashboard-page .activity-row__copy b,
+.dashboard-page .attention-row b,
+.dashboard-page .all-clear b {
+  font-size: var(--font-label);
+}
+
+.dashboard-snapshot {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--muted);
+  font-size: var(--font-meta);
+}
+
+.dashboard-page .metric-card {
+  padding: var(--space-5);
+}
+
+.dashboard-page .metric-card__top {
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+}
+
+.dashboard-page .metric-card__top > span:first-child {
+  padding: 0;
+  overflow-wrap: anywhere;
+}
+
+.dashboard-page .metric-card .metric-card__icon {
+  position: static;
+  flex: 0 0 24px;
+  width: 24px;
+  height: 24px;
+  background: none;
+  color: var(--muted);
+}
+
+.dashboard-page .metric-card > strong {
+  font-size: var(--font-metric);
+}
+
+.dashboard-page .metric-card > small,
+.dashboard-page .activity-row__copy small,
+.dashboard-page .activity-row time,
+.dashboard-page .attention-row small,
+.dashboard-page .all-clear small,
+.dashboard-page .chart-caption,
+.dashboard-page .chart-axis,
+.dashboard-page .attention-count {
+  font-size: var(--font-meta);
+  color: var(--muted);
+}
+
+.dashboard-page .status-pill {
+  font-size: var(--font-meta);
+}
+
+.dashboard-page .panel__title {
+  font-size: var(--font-body);
+}
+
+.dashboard-page .panel__header {
+  flex-wrap: wrap;
+  padding: var(--space-4) var(--space-6) var(--space-2);
+  gap: var(--space-2) var(--space-3);
+}
+
+.dashboard-page .panel__body {
+  padding: var(--space-2) var(--space-6) var(--space-6);
+}
+
+.dashboard-page .panel__header .text-button {
+  min-height: 44px;
+  font-size: var(--font-meta);
+}
+
+.dashboard-page .activity-row {
+  display: grid;
+  grid-template-columns: 32px minmax(0, 1fr) auto 14px;
+  gap: var(--space-2);
+  padding: var(--space-3) 0;
+}
+
+.dashboard-page .activity-row__copy,
+.dashboard-page .attention-row > span:nth-child(2),
+.dashboard-page .all-clear > div {
+  overflow-wrap: anywhere;
+  min-width: 0;
+}
+
+.dashboard-page .activity-row--static {
+  grid-template-columns: 32px minmax(0, 1fr) auto;
+}
+
+.dashboard-page .activity-row time {
+  white-space: nowrap;
+}
+
+.dashboard-page .activity-row,
+.dashboard-page .attention-row {
+  border-radius: var(--radius-control);
+  transition: background-color var(--duration-feedback) var(--ease-out);
+}
+
+.dashboard-page button.activity-row:hover,
+.dashboard-page .attention-row:hover {
+  background-color: var(--surface-hover);
+}
+
+.dashboard-page button.activity-row:active,
+.dashboard-page .attention-row:active {
+  background-color: var(--selected);
+}
+
+.dashboard-page .category-bar {
+  grid-template-columns: minmax(76px, 1fr) minmax(0, 1.5fr) 28px;
+  gap: var(--space-3);
+}
+
+.dashboard-page .category-bar > b {
+  text-align: right;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
+.dashboard-page .category-bar > span:first-child {
+  overflow-wrap: anywhere;
+}
+
+.dashboard-page .all-clear > span {
+  flex-shrink: 0;
+}
+
+@media (max-width: 480px) {
+  .dashboard-page .metric-card {
+    padding: var(--space-4);
+  }
+
+  .dashboard-page .metric-card__icon {
+    display: none;
+  }
+
+  .dashboard-page .panel__header,
+  .dashboard-page .panel__body {
+    padding-inline: var(--space-4);
+  }
+
+  .dashboard-page .activity-row {
+    grid-template-columns: 32px minmax(0, 1fr) 14px;
+  }
+
+  .dashboard-page .activity-row time {
+    grid-column: 2;
+    grid-row: 2;
+    margin-top: calc(var(--space-1) * -1);
+  }
+
+  .dashboard-page .activity-row > .icon {
+    grid-column: 3;
+    grid-row: 1 / 3;
+  }
+
+  .dashboard-page .chart-axis {
+    gap: var(--space-1);
+  }
+
+  .dashboard-page .chart-axis span {
+    min-width: 0;
+    text-align: center;
+  }
+
+  .dashboard-page .activity-row--static {
+    grid-template-columns: 32px minmax(0, 1fr) 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dashboard-page .activity-row,
+  .dashboard-page .attention-row {
+    transition: none;
+  }
+}

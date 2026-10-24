@@ -1,0 +1,186 @@
+{
+  "basics": {
+    "name": "Valkenburgh Margin",
+    "label": "Full-Stack Developer | Computer Engineering Graduate",
+    "email": "marginvalkenburgh@gmail.com",
+    "phone": "09295768675",
+    "location": {
+      "address": "Antipolo, Rizal",
+      "countryCode": "PH"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "vmargin",
+        "url": "https://www.linkedin.com/in/vmargin/"
+      },
+      {
+        "network": "GitHub",
+        "username": "vmargin",
+        "url": "https://github.com/vmargin"
+      }
+    ],
+    "summary": "Computer Engineering graduate with hands-on experience building and deploying full-stack web applications. Proficient in React, Node.js, Express, and PostgreSQL. Strong foundation in RESTful API development, database design, and cloud deployment. Seeking a Full-Stack Developer position to contribute to innovative projects."
+  },
+  "work": [],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Polytechnic University of the Philippines",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2016",
+      "endDate": "2020",
+      "courses": [
+        "Data Structures",
+        "Algorithms",
+        "Database Systems",
+        "Software Engineering"
+      ]
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Frontend",
+      "keywords": [
+        "React",
+        "JavaScript",
+        "Tailwind CSS",
+        "Vite",
+        "Axios"
+      ]
+    },
+    {
+      "name": "Backend",
+      "keywords": [
+        "Node.js",
+        "Express.js",
+        "RESTful APIs"
+      ]
+    },
+    {
+      "name": "Database",
+      "keywords": [
+        "PostgreSQL",
+        "Prisma ORM",
+        "Supabase"
+      ]
+    },
+    {
+      "name": "Authentication",
+      "keywords": [
+        "JWT",
+        "bcrypt"
+      ]
+    },
+    {
+      "name": "Deployment",
+      "keywords": [
+        "Railway",
+        "Vercel",
+        "Supabase"
+      ]
+    },
+    {
+      "name": "Tools",
+      "keywords": [
+        "Git",
+        "GitHub",
+        "Postman",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Languages",
+      "keywords": [
+        "JavaScript",
+        "SQL"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "Multi-Tenant Asset Manager",
+      "description": "Production-ready asset management system with multi-tenant architecture ensuring complete data isolation between organizations",
+      "highlights": [
+        "Developed production-ready asset management system with multi-tenant architecture ensuring complete data isolation between organizations",
+        "Implemented secure JWT authentication with bcrypt password hashing and input validation",
+        "Built RESTful API with Express.js handling CRUD operations for assets with organization-level security",
+        "Designed PostgreSQL database schema using Prisma ORM with proper relationships and constraints",
+        "Created responsive React UI with Tailwind CSS and modern component architecture",
+        "Deployed backend to Railway and frontend to Vercel with environment configuration",
+        "Utilized Supabase for PostgreSQL database hosting and management"
+      ],
+      "keywords": [
+        "React",
+        "Node.js",
+        "Express",
+        "Prisma",
+        "PostgreSQL",
+        "Supabase",
+        "Railway",
+        "Vercel",
+        "JWT",
+        "bcrypt"
+      ],
+      "startDate": "2025-01",
+      "url": "https://github.com/vmargin/assethub",
+      "type": "Full-Stack Web Application"
+    },
+    {
+      "name": "Enterprise Task Management System",
+      "description": "Full-stack productivity application with user authentication and task management",
+      "highlights": [
+        "Built full-stack productivity application with user authentication and task management",
+        "Implemented persistent data storage with PostgreSQL and relational database design",
+        "Developed responsive React frontend with modern UI/UX patterns",
+        "Deployed application to Vercel with Supabase backend integration"
+      ],
+      "keywords": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "Supabase",
+        "Vercel"
+      ],
+      "startDate": "2024",
+      "url": "https://github.com/vmargin/task-manager-api",
+      "type": "Full-Stack Web Application"
+    }
+  ],
+  "meta": {
+    "canvases": {
+      "default": {
+        "layout": [
+          [
+            "basics.name",
+            "basics.label",
+            "basics.picture",
+            "basics.email",
+            "basics.phone",
+            "basics.website",
+            "basics.location",
+            "basics.profiles",
+            "basics.summary",
+            "sections.skills",
+            "sections.projects",
+            "sections.education",
+            "sections.languages"
+          ]
+        ]
+      }
+    }
+  }
+}

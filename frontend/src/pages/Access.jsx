@@ -134,11 +134,10 @@ export default function Access({
       <main className="auth-main">
         <div className="auth-layout">
           <aside className="auth-story" aria-labelledby="auth-story-title">
-            <span className="auth-kicker">A CLEARER VIEW OF YOUR EQUIPMENT</span>
             <h1 id="auth-story-title">
               Every asset.
               <br />
-              <em>In good hands.</em>
+              <span>In good hands.</span>
             </h1>
             <p className="auth-story__description">
               Keep inventory, people, and asset history together across your
@@ -149,18 +148,18 @@ export default function Access({
               className="auth-lifecycle"
               aria-label="Asset lifecycle: available, assigned, and in service"
             >
-              <span className="auth-lifecycle__label">ASSET LIFECYCLE</span>
+              <span className="auth-lifecycle__label">Asset lifecycle</span>
               <div className="auth-lifecycle__steps">
                 <span className="auth-step auth-step--available">
-                  <i aria-hidden="true" /> Available
+                  Available
                 </span>
                 <Icon name="arrow-right" size={14} />
                 <span className="auth-step auth-step--assigned">
-                  <i aria-hidden="true" /> Assigned
+                  Assigned
                 </span>
                 <Icon name="arrow-right" size={14} />
                 <span className="auth-step auth-step--service">
-                  <i aria-hidden="true" /> In service
+                  In service
                 </span>
               </div>
             </section>
@@ -182,7 +181,6 @@ export default function Access({
             {session ? (
               <>
                 <div className="auth-card__heading">
-                  <span className="auth-card__eyebrow">YOUR WORKSPACE</span>
                   <h2 id="auth-panel-title">{panelTitle}</h2>
                   <p>
                     Continue to {activeOrganization?.name || "your team"}’s
@@ -205,13 +203,6 @@ export default function Access({
             ) : (
               <>
                 <div className="auth-card__heading">
-                  <span className="auth-card__eyebrow">
-                    {mode === "invite"
-                      ? "YOUR INVITATION"
-                      : mode === "register"
-                        ? "GET STARTED"
-                        : "SECURE WORKSPACE ACCESS"}
-                  </span>
                   <h2 id="auth-panel-title">{panelTitle}</h2>
                   <p>
                     {mode === "invite"
@@ -360,15 +351,9 @@ export default function Access({
                   >
                     <div className="auth-demo__heading">
                       <div>
-                        <span className="auth-card__eyebrow">DEMO ACCESS</span>
                         <h3 id="auth-demo-title">Explore a sample workspace</h3>
                       </div>
-                      <span className="auth-demo__badge">ISOLATED</span>
                     </div>
-                    <p className="auth-demo__description">
-                      These credentials open a separate workspace with
-                      fictional records.
-                    </p>
                     <dl className="auth-demo__credentials">
                       <div>
                         <dt>Username</dt>
@@ -393,8 +378,8 @@ export default function Access({
                       Fill demo credentials
                     </Button>
                     <p id="auth-demo-disclosure" className="auth-demo__note">
-                      Demo records are fictional, isolated from customer
-                      workspaces, and expire after 24 hours.
+                      Fictional records in an isolated workspace. Demo access
+                      expires after 24 hours.
                     </p>
                   </section>
                 )}
