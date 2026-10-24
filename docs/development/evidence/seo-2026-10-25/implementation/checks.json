@@ -1,0 +1,135 @@
+{
+  "checkedAt": "2026-10-24T19:15:35.467Z",
+  "scope": "Local built output and locally intercepted trusted-host browser loads",
+  "results": [
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "contentType": "text/plain"
+    },
+    {
+      "path": "/social-preview.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "check": "local environment exclusion",
+      "result": "passed"
+    },
+    {
+      "path": "/",
+      "robots": "noindex, nofollow",
+      "accessHeading": "Welcome back"
+    },
+    {
+      "path": "/?utm_source=seo-check",
+      "robots": "noindex, nofollow",
+      "accessHeading": "Welcome back"
+    },
+    {
+      "path": "/?invite=seo-check-invalid",
+      "robots": "noindex, nofollow",
+      "accessHeading": "Join your team"
+    },
+    {
+      "path": "/?invite=",
+      "robots": "noindex, nofollow",
+      "accessHeading": "Welcome back"
+    },
+    {
+      "path": "/#dashboard",
+      "robots": "noindex, nofollow",
+      "accessHeading": "Welcome back"
+    },
+    {
+      "path": "/#assets/missing",
+      "robots": "noindex, nofollow",
+      "accessHeading": "Welcome back"
+    },
+    {
+      "check": "client hash navigation preserves access gate and sitewide noindex",
+      "result": "passed"
+    },
+    {
+      "check": "static shell",
+      "theme": "light",
+      "width": 320,
+      "overflow": 0
+    },
+    {
+      "check": "static shell",
+      "theme": "light",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "check": "static shell",
+      "theme": "light",
+      "width": 425,
+      "overflow": 0
+    },
+    {
+      "check": "static shell",
+      "theme": "light",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "check": "static shell",
+      "theme": "light",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "check": "static shell",
+      "theme": "light",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "check": "static shell",
+      "theme": "dark",
+      "width": 320,
+      "overflow": 0
+    },
+    {
+      "check": "static shell",
+      "theme": "dark",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "check": "static shell",
+      "theme": "dark",
+      "width": 425,
+      "overflow": 0
+    },
+    {
+      "check": "static shell",
+      "theme": "dark",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "check": "static shell",
+      "theme": "dark",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "check": "static shell",
+      "theme": "dark",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "check": "social preview dimensions",
+      "width": 1200,
+      "height": 630
+    }
+  ],
+  "pageErrors": [],
+  "pending": [
+    "Actual Vercel unknown-path 404s, sitewide noindex headers and public social-image fetch after deployment"
+  ]
+}

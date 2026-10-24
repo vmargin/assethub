@@ -9,6 +9,21 @@
       content="Sign in to ERL AssetHub to manage your organization’s equipment, people and asset history. Open an isolated demo workspace with fictional sample data."
     />
     <link rel="icon" type="image/svg+xml" href="/assethub.svg" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ERL AssetHub" />
+    <meta property="og:title" content="ERL AssetHub · Workspace access" />
+    <meta
+      property="og:description"
+      content="Keep inventory, people, and asset history together across your workspaces. Explore an isolated demo with fictional sample data."
+    />
+    <meta property="og:url" content="https://erlassethub.vercel.app/" />
+    <meta property="og:image" content="https://erlassethub.vercel.app/social-preview.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="ERL AssetHub. Every asset. In good hands. Inventory, people, and asset history in one workspace." />
+    <meta name="twitter:card" content="summary_large_image" />
     <script>
       try {
         const preference = localStorage.getItem("assethub.theme") || "light";
@@ -24,7 +39,35 @@
     <title>ERL AssetHub · Workspace access</title>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <div class="auth-page">
+        <header class="auth-topbar">
+          <a class="auth-brand" href="/" aria-label="ERL AssetHub home">
+            <span class="auth-brand__name">ERL AssetHub</span>
+            <span class="auth-brand__context">Workspace access</span>
+          </a>
+        </header>
+        <main class="auth-main">
+          <div class="auth-layout">
+            <section class="auth-story" aria-labelledby="auth-story-title">
+              <h1 id="auth-story-title">Every asset.<br /><span>In good hands.</span></h1>
+              <p class="auth-story__description">
+                Keep inventory, people, and asset history together across your workspaces.
+              </p>
+              <p>Track equipment from available to assigned and in service.</p>
+            </section>
+            <section class="auth-card" aria-labelledby="auth-panel-title">
+              <div class="auth-card__heading">
+                <h2 id="auth-panel-title">Workspace access</h2>
+                <p>Sign in to manage your organization's equipment, people, and asset history.</p>
+              </div>
+              <p>Explore a sample workspace with fictional records. Demo access expires after 24 hours.</p>
+              <noscript><p>Enable JavaScript to sign in, create a workspace, or open the interactive demo.</p></noscript>
+            </section>
+          </div>
+        </main>
+      </div>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

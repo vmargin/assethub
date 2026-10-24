@@ -1,0 +1,3 @@
+User-agent: *
+# Allow fetching so crawlers can read the sitewide noindex response header.
+Allow: /
